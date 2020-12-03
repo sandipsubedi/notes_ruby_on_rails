@@ -1,7 +1,7 @@
 # Ruby on Rails notes:
 
 Collecting things I have learned while working with Ruby on Rails.
-
+```
 ├── books.md
 ├── conference.md
 ├── rails
@@ -27,3 +27,4 @@ Collecting things I have learned while working with Ruby on Rails.
 ├── ruby_version_manager
 │   └── readme.md
 └── serverless.md
+```
