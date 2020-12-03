@@ -45,7 +45,7 @@ puts john.name
 
 
 
-### Getter and Setter:
+## Getter and Setter:
 - attr_accessor
 - Basically attr_accessor is a shortcut for when you need both attr_reader and attr_writer. It squashes down those two lines into one. Like so.
 
@@ -72,3 +72,13 @@ class Person
 end
 ```
 
+## Getter:
+
+There is nothing special about this, an attr_reader is a shortcut for writing an accessor method like this one:
+
+
+```ruby
+def author
+  @author
+end
+```

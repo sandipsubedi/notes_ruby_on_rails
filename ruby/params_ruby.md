@@ -16,11 +16,20 @@ sum(100, 10, 30) # => 80
   - Also known as named parameters, keyword arguments, required keyword arguments.
 
 ```ruby
-def sum(salary, bonus, tax)
+def sum(salary:, bonus:, tax:)
   salary + bonus - tax
 end
 
 sum(salary: 100, bonus: 10, tax: 30) # => 80
+```
+
+#### Passing default value:
+```ruby
+def sum(salary:, bonus: 10, tax:)
+  salary + bonus - tax
+end
+
+sum(salary: 100, tax: 30) # => 80
 ```
 
 ### 3. Variable Aruments:

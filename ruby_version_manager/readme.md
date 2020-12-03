@@ -6,6 +6,11 @@ If you want to `2.6.3`
 rvm use 2.6.3
 ```
 
+### To make a ruby version default:
+```ruby
+rvm use --default 2.6.3
+```
+
 ### Check which ruby is being used:
 ```ruby
 rvm which ruby
