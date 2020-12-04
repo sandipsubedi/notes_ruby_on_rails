@@ -2,3 +2,5 @@ site_name: Ruby on Rails Notes
 theme:
   name: null
   custom_dir: 'cinder'
+- name: Deploy MkDocs
+  uses: mhausenblas/mkdocs-deploy-gh-pages@1.16
