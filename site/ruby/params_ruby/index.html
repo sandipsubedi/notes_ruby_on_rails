@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    
+    <title>Params Ruby: - Ruby on Rails Notes</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../../css/base.min.css" rel="stylesheet">
+    <link href="../../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            
+              <a class="navbar-brand" href="../..">Ruby on Rails Notes</a>
+            
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">Ruby on Rails Notes:</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rails <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../rails/asset_pipeline_to_yarn_webpacker/">Moving from asset pipeline to yarn/webpacker:</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../rails/distinct_rails/">Distinct in Rails:</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../rails/readme/">Notes for Rails</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../rails/security/">Ways to make Rails app more secure:</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../rails/session/">Session on Rails:</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../resources/books/">Ruby Books:</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../resources/conference/">Conference</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../resources/ruby_resources/">Ruby Resources:</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../resources/serverless/">Serverless:</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ruby <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../by_value_vs_by_reference/">By Value or By Reference:</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../constants/">Constants in Ruby:</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dup_vs_clone/">Dup vs Clone in Ruby:</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../get_set_ruby/">Getter/Setter in Ruby? attr_accessor, atrr_reader and attr_writer:</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../instance_vs_class/">Instance vs Class: Method</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../loops/">Loops in Ruby:</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../method_visibility/">Method visibility in Ruby:</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Params Ruby:</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../rails_vs_ruby_methods/">Rails vs Ruby methods:</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../readme/">Notes for Ruby:</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../variables/">Variables in Ruby:</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ruby version manager <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../ruby_version_manager/readme/">Ruby Version Manager:</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../method_visibility/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../rails_vs_ruby_methods/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#params-ruby">Params Ruby:</a></li>
+            <li class="second-level"><a href="#different-types-of-parameter-in-ruby">Different types of parameter in Ruby:</a></li>
+                
+                <li class="third-level"><a href="#1-positional-params">1. Positional Params</a></li>
+                <li class="third-level"><a href="#2-keyword-param">2. Keyword Param</a></li>
+                <li class="third-level"><a href="#3-variable-aruments">3. Variable Aruments:</a></li>
+                <li class="third-level"><a href="#order">Order</a></li>
+                <li class="third-level"><a href="#benefits-of-keyword-params">Benefits of Keyword params:</a></li>
+            <li class="second-level"><a href="#parameter-vs-arguments">Parameter vs Arguments:</a></li>
+                
+            <li class="second-level"><a href="#interesting-facts">Interesting Facts:</a></li>
+                
+                <li class="third-level"><a href="#1-parentheses-for-paramters-are-optional">1. Parentheses for paramters are optional:</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="params-ruby">Params Ruby:</h1>
+<h2 id="different-types-of-parameter-in-ruby">Different types of parameter in Ruby:</h2>
+<h3 id="1-positional-params">1. Positional Params</h3>
+<pre><code class="ruby">def sum(salary, bonus, tax)
+  salary + bonus - tax
+end
+
+sum(100, 10, 30) # =&gt; 80
+</code></pre>
+
+<h3 id="2-keyword-param">2. Keyword Param</h3>
+<ul>
+<li>Introduced at Ruby 2.0.</li>
+<li>Keyword arguments allow us to switch the order of the arguments, without affecting the behavior of the method.</li>
+<li>Also known as named parameters, keyword arguments, required keyword arguments.</li>
+</ul>
+<pre><code class="ruby">def sum(salary:, bonus:, tax:)
+  salary + bonus - tax
+end
+
+sum(salary: 100, bonus: 10, tax: 30) # =&gt; 80
+</code></pre>
+
+<h4 id="passing-default-value">Passing default value:</h4>
+<pre><code class="ruby">def sum(salary:, bonus: 10, tax:)
+  salary + bonus - tax
+end
+
+sum(salary: 100, tax: 30) # =&gt; 80
+</code></pre>
+
+<h3 id="3-variable-aruments">3. Variable Aruments:</h3>
+<pre><code class="ruby">
+def print_all(**args)
+  print args
+end
+print_all(1, 2, 3) # =&gt; 
+</code></pre>
+
+<p>The **x is the same as variable arguments, but for keyword arguments. It will be a hash instead of an array.</p>
+<ol>
+<li>Catch-all Argument:</li>
+</ol>
+<pre><code class="ruby">def print_all(*)
+end
+</code></pre>
+
+<p>This means that the method is accepting any arguments, but it’s not doing anything with them. It’s similar to using the underscore character (_) inside a block to show which arguments you aren’t using.</p>
+<h3 id="order">Order</h3>
+<pre><code>required -&gt; optional -&gt; variable -&gt; keyword
+</code></pre>
+
+<pre><code class="ruby">def testing(a, b = 1, *c, d: 1, **x)
+  p a,b,c,d,x
+end
+testing('a', 'b', 'c', 'd', 'e', d: 2, x: 1)
+</code></pre>
+
+<h3 id="benefits-of-keyword-params">Benefits of Keyword params:</h3>
+<ul>
+<li>Order doesn't matter</li>
+<li>If order chagges on the method parameter, argument doesn't have to change on all the places where it's called.</li>
+<li>Usually, the code clarity and maintainability gained from keyword arguments outweigh the terseness offered by positional arguments. </li>
+</ul>
+<h2 id="parameter-vs-arguments">Parameter vs Arguments:</h2>
+<p><strong>Argument:</strong>
+- The entity that we can pass to the method during the call is called an argument.</p>
+<p><strong>Parameter:</strong>
+- The entity that we declare when we define a method is called a parameter.</p>
+<p>When we pass arguments to a method, the method creates a local variable which has the same name</p>
+<p>In ruby, arguments inside a method are passed by reference</p>
+<h2 id="interesting-facts">Interesting Facts:</h2>
+<h3 id="1-parentheses-for-paramters-are-optional">1. Parentheses for paramters are optional:</h3>
+<pre><code class="ruby">def method_name a,b,c
+  puts a,b,c,d 
+end
+
+method_name 0,1,2
+</code></pre>
+
+<p>But it's recommended for redeability.</p></div>
+        
+        
+    </div>
+
+    
+      <footer class="col-md-12 text-center">
+          
+          
+            <hr>
+            <p>
+            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+            </p>
+          
+
+          
+          
+      </footer>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = "../.."</script>
+    
+    <script src="../../js/base.js"></script>
+    <script src="../../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>
