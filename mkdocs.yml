@@ -1,4 +1,4 @@
 site_name: Ruby on Rails Notes
-nav:
-  - Home: index.md
-  - Books: books.md
+theme:
+  name: null
+  custom_dir: 'cinder'

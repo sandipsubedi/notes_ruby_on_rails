@@ -1,6 +1,7 @@
 # Ruby on Rails notes:
 
 Collecting things I have learned while working with Ruby on Rails.
+
 ```
 ├── books.md
 ├── conference.md
