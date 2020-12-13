@@ -1,6 +1,7 @@
 # Session on Rails:
 
 - sessions allow users to authenticate once and remain signed in for future requests.
+- Sliding window: Everytime you touch it expires_at gets extended.
 
 ### Name of the cookie:
 - Name of the cookie matches the key we set in `session_store.rb`

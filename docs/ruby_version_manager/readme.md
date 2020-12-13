@@ -1,7 +1,14 @@
 # Ruby Version Manager:
 
 ### Change the version that you want to use:
-If you want to `2.6.3`
+If you want to use `2.6.3`
+
+### Install:
+```ruby
+rvm install "ruby-2.6.3"
+```
+
+### Use:
 ```ruby
 rvm use 2.6.3
 ```
