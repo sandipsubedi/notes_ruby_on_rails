@@ -1,9 +1,18 @@
-# Loops in Ruby:
+# Ruby : Each
+
 
 ### Each:
 
+- Single line
 ```ruby
 numbers.each { |n| puts n }
+```
+
+- Multi-line
+```ruby
+numbers.each do |n|
+  print n
+end
 ```
 
 ### Each with a hash:
@@ -16,28 +25,4 @@ hash.each { |key,value| puts "#{key} price is #{value}" }
 ```ruby
 animals = ["cat", "dog", "tiger"]
 animals.each_with_index { |animal, idx| puts "We have a #{animal} with index #{idx}" }
-```
-
-### Times:
-```ruby
-10.times { |i| puts "hello #{i}" }
-```
-
-### Range
-```ruby
-(1..10).each { |i| puts i }
-```
-
-### While:
-```ruby
-n = 0
-while n < 10
-  puts n
-  n += 1
-end
-```
-
-### Stop a Loop?
-```ruby
-break
 ```
