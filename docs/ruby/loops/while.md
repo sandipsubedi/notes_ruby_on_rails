@@ -1,6 +1,7 @@
 # Ruby: While
 
 ### While:
+
 ```ruby
 n = 0
 while n < 10

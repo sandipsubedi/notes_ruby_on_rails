@@ -1,14 +1,11 @@
 # Ruby : Each
 
-
-### Each:
-
-- Single line
+### Single line
 ```ruby
 numbers.each { |n| puts n }
 ```
 
-- Multi-line
+### Multi-line
 ```ruby
 numbers.each do |n|
   print n
