@@ -1,11 +1,6 @@
 ### Setter:
 - attr_writer
 
-## Getter and Setter:
-- attr_accessor
-- Basically attr_accessor is a shortcut for when you need both attr_reader and attr_writer. It squashes down those two lines into one. Like so.
-
-
 ```ruby
 class Person
   attr_reader :name, :age, :sex, :email

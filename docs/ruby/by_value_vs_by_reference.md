@@ -6,6 +6,8 @@
 - In ruby, we have a different situation, the variable that we have inside the method stores a reference to an object.
 - Thus, if we will change an object inside the method, then it will be changed also outside the method.
 
+Code
+
 ```ruby
 def test_reference(test_hash:)
     test_hash[:test] = "was changed inside"
@@ -20,6 +22,7 @@ print "after: #{outside_hash} \n"
 
 ```
 
+Output
 ```
 $ruby main.rb
 before: {:test=>"came from the outside"} 

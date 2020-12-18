@@ -1,6 +1,4 @@
-# Instance vs Class Variable:
-
-### Instance variable (@apple)
+# Instance variable (@apple)
 - To store shared data that all the methods(in the same class) can use.
 - An instance variable is not visible outside the object it is in;
 - but when you create an attr_accessor, it creates an instance variable and also makes it visible (and editable) outside the object
