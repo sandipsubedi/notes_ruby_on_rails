@@ -1,8 +1,6 @@
 ---
-title: This is Document Number 3
+title: Constants
 ---
-
-# Constants in Ruby:
 
 ### How to create constants? (kinda)
 ```ruby

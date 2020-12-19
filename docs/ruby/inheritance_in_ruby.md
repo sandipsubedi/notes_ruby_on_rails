@@ -1,5 +1,5 @@
 ---
-title: This is Document Number 3
+title: Inheritance
 ---
 
 # Inheritance in Ruby:

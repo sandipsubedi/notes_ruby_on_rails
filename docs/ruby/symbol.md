@@ -1,9 +1,6 @@
 ---
-title: This is Document Number 3
+title: Symbol
 ---
-
-
-# Symbol : Ruby
 
 - Symbols are identifiers.
 

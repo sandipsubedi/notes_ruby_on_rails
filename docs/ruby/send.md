@@ -1,8 +1,6 @@
 ---
-title: This is Document Number 3
+title: Send
 ---
-
-# Send in Ruby:
 
 https://medium.com/ruby-daily/53-ruby-on-rails-interview-questions-and-answers-eb99eed1aeb7
 

@@ -1,8 +1,6 @@
 ---
-title: This is Document Number 3
+title: Length vs Size vs Count
 ---
-
-# Length vs Size vs Count:
 
 Great Article:
 https://batsov.com/articles/2014/02/17/the-elements-of-style-in-ruby-number-13-length-vs-size-vs-count/

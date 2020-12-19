@@ -1,8 +1,6 @@
 ---
-title: This is Document Number 3
+title: If/Else
 ---
-
-# If else in Ruby:
 
 ```ruby
 food = "taco"

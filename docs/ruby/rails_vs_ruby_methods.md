@@ -1,8 +1,6 @@
 ---
-title: This is Document Number 3
+title: Rails vs Ruby Methods
 ---
-
-# Rails vs Ruby methods:
 
 I have wasted some times thinking the Rails method was available on Ruby, because I was working on Rails pry session.
 

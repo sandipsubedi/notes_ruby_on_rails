@@ -1,8 +1,6 @@
 ---
-title: This is Document Number 3
+title: Params Ruby
 ---
-
-# Params Ruby:
 
 ## Different types of parameter in Ruby:
 ### 1. Positional Params

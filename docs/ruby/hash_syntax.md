@@ -1,8 +1,8 @@
 ---
-title: This is Document Number 3
+title: Hash
 ---
 
-# Hash Syntax: Hashrocket vs JSON-Style
+- Hashrocket vs JSON-Style
 
 Great article: http://alwayscoding.ca/momentos/2012/06/15/ruby-hash-syntax-hashrocket-vs-json-style/
 

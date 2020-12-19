@@ -1,8 +1,6 @@
 ---
-title: This is Document Number 3
+title: Ruby Version Manager
 ---
-
-# Ruby Version Manager:
 
 ### Change the version that you want to use:
 If you want to use `2.6.3`

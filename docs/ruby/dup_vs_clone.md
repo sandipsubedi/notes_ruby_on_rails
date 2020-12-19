@@ -1,8 +1,6 @@
 ---
-title: This is Document Number 3
+title: Dup vs Clone
 ---
-
-# Dup vs Clone in Ruby:
 
 TODO
 

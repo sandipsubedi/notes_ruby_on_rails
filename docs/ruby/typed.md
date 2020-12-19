@@ -1,8 +1,6 @@
 ---
-title: This is Document Number 3
+title: Typed
 ---
-
-# How is Ruby Typed?
 
 ### statically or dynamically typed?
 - Statically
