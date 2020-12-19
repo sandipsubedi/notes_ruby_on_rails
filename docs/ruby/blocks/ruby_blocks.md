@@ -1,3 +1,8 @@
+---
+id: doc3
+title: This is Document Number 3
+---
+
 # Ruby Blocks:
 
 - one or more lines of code that you put inside the do and end keywords.

@@ -1,3 +1,8 @@
+---
+id: doc3
+title: This is Document Number 3
+---
+
 # Instance variable (@apple)
 - To store shared data that all the methods(in the same class) can use.
 - An instance variable is not visible outside the object it is in;

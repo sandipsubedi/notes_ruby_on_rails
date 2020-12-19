@@ -1,5 +1,9 @@
-# Constants in Ruby:
+---
+id: doc3
+title: This is Document Number 3
+---
 
+# Constants in Ruby:
 
 ### How to create constants? (kinda)
 ```ruby

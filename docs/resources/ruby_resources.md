@@ -1,3 +1,7 @@
+---
+title: Ruby
+---
+
 # Ruby Resources:
 
 Great articles: https://www.rubyguides.com/

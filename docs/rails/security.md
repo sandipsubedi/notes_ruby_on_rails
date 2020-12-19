@@ -1,4 +1,6 @@
-# Ways to make Rails app more secure:
+---
+title: Security
+---
 
 ## ApplicationController
 ```ruby

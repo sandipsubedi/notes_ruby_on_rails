@@ -1,3 +1,8 @@
+---
+id: doc3
+title: This is Document Number 3
+---
+
 # Rails vs Ruby methods:
 
 I have wasted some times thinking the Rails method was available on Ruby, because I was working on Rails pry session.

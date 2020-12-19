@@ -1,4 +1,6 @@
-# Distinct in Rails:
+---
+title: Distinct
+---
 
 ### Mostly used with Select:
 ```ruby

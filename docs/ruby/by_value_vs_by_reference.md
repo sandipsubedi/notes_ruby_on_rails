@@ -1,5 +1,9 @@
-# By Value or By Reference:
+---
+id: doc3
+title: This is Document Number 3
+---
 
+# By Value or By Reference:
 
 ## Methods:
 - In ruby, arguments inside a method are passed by reference

@@ -1,3 +1,8 @@
+---
+id: doc3
+title: This is Document Number 3
+---
+
 # Yield in Ruby:
 
 - Passed block when method is called. Which will be executed with `yield`

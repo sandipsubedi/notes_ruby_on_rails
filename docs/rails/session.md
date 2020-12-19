@@ -1,4 +1,6 @@
-# Session on Rails:
+---
+title: Session
+---
 
 - Sessions allow users to authenticate once and remain signed in for future requests.
 - **Sliding window**: Everytime you touch it expires_at gets extended.

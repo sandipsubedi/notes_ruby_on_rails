@@ -1,3 +1,8 @@
+---
+id: doc3
+title: This is Document Number 3
+---
+
 # Getter/Setter in Ruby? attr_accessor, atrr_reader and attr_writer:
 
 - A Ruby object has its methods public by default, but its data is private.
