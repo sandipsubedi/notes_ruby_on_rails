@@ -2,7 +2,6 @@
 title: Attr Writer
 ---
 
-### Setter:
 - attr_writer
 
 ```ruby

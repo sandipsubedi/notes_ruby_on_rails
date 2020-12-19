@@ -2,4 +2,4 @@
 title: Class Method
 ---
 
-# Class Method
+TODO

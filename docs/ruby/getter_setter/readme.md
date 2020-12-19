@@ -2,8 +2,6 @@
 title: Getter and Setter
 ---
 
-# Getter/Setter in Ruby? attr_accessor, atrr_reader and attr_writer:
-
 - A Ruby object has its methods public by default, but its data is private.
 - So if you need to access the data, for either reading or writing, you need to make it public somehow.
 

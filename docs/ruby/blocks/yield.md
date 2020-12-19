@@ -1,8 +1,6 @@
 ---
-title: This is Document Number 3
+title: Yield
 ---
-
-# Yield in Ruby:
 
 - Passed block when method is called. Which will be executed with `yield`
 

@@ -2,7 +2,5 @@
 title: Instance Method
 ---
 
-
-# Instance Method:
-
+TODO
 

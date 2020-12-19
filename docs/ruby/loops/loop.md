@@ -1,8 +1,6 @@
 ---
-title: Loops
+title: Loop
 ---
-
-# Loops in Ruby:
 
 ### Times:
 ```ruby

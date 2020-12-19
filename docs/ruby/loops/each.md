@@ -2,8 +2,6 @@
 title: Each
 ---
 
-# Ruby : Each
-
 ### Single line
 ```ruby
 numbers.each { |n| puts n }
