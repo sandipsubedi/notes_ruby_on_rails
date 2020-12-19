@@ -1,8 +1,6 @@
 ---
-title: Ruby
+title: Online
 ---
-
-# Ruby Resources:
 
 Great articles: https://www.rubyguides.com/
 

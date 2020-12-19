@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Sandip Subedi',
+  tagline: 'Ruby on Rails Notes',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Sandip Subedi',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -19,7 +19,7 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Ruby on Rails Docs',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
@@ -39,26 +39,26 @@ module.exports = {
             {
               label: 'Style Guide',
               to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
+            }
           ],
         },
         {
-          title: 'Community',
+          title: 'Social Media',
           items: [
             {
-              label: 'Stack Overflow',
+              label: 'Github',
               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
             {
-              label: 'Discord',
+              label: 'Stack Overflow',
               href: 'https://discordapp.com/invite/docusaurus',
             },
             {
               label: 'Twitter',
+              href: 'https://twitter.com/docusaurus',
+            },
+            {
+              label: 'LinkedIn',
               href: 'https://twitter.com/docusaurus',
             },
           ],
@@ -70,14 +70,10 @@ module.exports = {
               label: 'Blog',
               to: 'blog',
             },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Sandip Subedi. Built with Docusaurus.`,
     },
   },
   presets: [
