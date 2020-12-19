@@ -1,9 +1,6 @@
 ---
-id: doc3
-title: This is Document Number 3
+title: Attr Accessor
 ---
-
-# Attr Accessor : Ruby
 
 - Getter + Setter = attr_accessor
 - Basically attr_accessor is a shortcut for when you need both attr_reader and attr_writer. It squashes down those two lines into one.

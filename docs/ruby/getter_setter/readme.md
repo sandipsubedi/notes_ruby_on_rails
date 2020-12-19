@@ -1,6 +1,5 @@
 ---
-id: doc3
-title: This is Document Number 3
+title: Getter and Setter
 ---
 
 # Getter/Setter in Ruby? attr_accessor, atrr_reader and attr_writer:
