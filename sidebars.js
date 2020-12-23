@@ -21,6 +21,7 @@ module.exports = {
            "ruby/documentation_in_command_line",
            "ruby/dup_vs_clone","ruby/hash_syntax","ruby/if_else_ruby","ruby/inheritance_in_ruby",
            "ruby/lambda","ruby/length_size_count","ruby/method_visibility","ruby/params_ruby",
+           "ruby/print_puts_p",
            "ruby/proc","ruby/rails_vs_ruby_methods","ruby/send","ruby/symbol",
            "ruby/type_of_object",
            "ruby/typed"],
