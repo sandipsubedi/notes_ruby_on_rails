@@ -1,0 +1,5 @@
+---
+title: Hash
+---
+
+TODO
