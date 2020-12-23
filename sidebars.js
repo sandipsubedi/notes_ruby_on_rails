@@ -1,7 +1,7 @@
 module.exports = {
   someSidebar: {
     Main: ['index'],
-    Gems: ['gems/retriable'],
+    Gems: ['gems/retriable', 'gems/resque'],
     Resources: ['resources/books','resources/conference','resources/online'],
     Rails: ['rails/distinct', 'rails/security', 'rails/session',
             'rails/terminal_commands', 'rails/to_webpacker'],
