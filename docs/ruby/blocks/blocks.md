@@ -5,7 +5,7 @@ title: Blocks
 - one or more lines of code that you put inside the do and end keywords.
 - or { and } for inline blocks.
 
-```ruby
+```rb
 do
   puts "this is a test"
 end
@@ -17,7 +17,7 @@ end
 
 
 ### Multi-line
-```ruby
+```rb
 # n ==> Block parameter.
 [0, 1, 2, 3, 4].each do |n|
   puts "Number #{n}"
@@ -25,12 +25,12 @@ end
 ```
 
 ### Single-line with do-end
-```ruby
+```rb
 [0, 1, 2, 3, 4].each do |n| puts "Number #{n}" end
 ```
 
 ### Single-line with { }
-```ruby
+```rb
 # Single line with { }
 [0, 1, 2, 3, 4].each  { |n| puts "Number #{n}"  }
 ```

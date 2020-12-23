@@ -7,7 +7,7 @@ title: Session
 
 ### Name of the cookie:
 - Name of the cookie matches the key we set in `session_store.rb`
-```ruby
+```rb
 Rails.application.config.session_store :cookie_store, key: '_my_website_session'
 ```
 
@@ -21,7 +21,7 @@ path: '/'
 ```
 
 ### Sample session object:
-```ruby
+```rb
 ActiveRecord::SessionStore::Session.first
   ActiveRecord::SessionStore::Session Load (0.5ms)  SELECT "sessions".* FROM "sessions" ORDER BY "sessions"."id" ASC LIMIT $1  [["LIMIT", 1]]
  => #<ActiveRecord::SessionStore::Session id: 1, session_id: "d1223423423412352358", data: "2423423422V4cGlyZXNfYXQ435435asdfHDIwMTYtMD35345AgMT...", created_at: "2016-03-30 14:50:41", updated_at: "2016-03-30 14:50:41">
@@ -29,7 +29,7 @@ ActiveRecord::SessionStore::Session.first
 
 - In data
 
-```ruby
+```rb
 2.6.3 :010 > ActiveRecord::SessionStore::Session.first.data
 ActiveRecord::SessionStore::Session Load (0.5ms)  SELECT "sessions".* FROM "sessions" ORDER BY "sessions"."id" ASC LIMIT $1  [["LIMIT", 1]]
 => {"expires_at"=>"2020-03-30 15:50:41 UTC"}
@@ -37,12 +37,12 @@ ActiveRecord::SessionStore::Session Load (0.5ms)  SELECT "sessions".* FROM "sess
 
 
 ### Database table for Session:
-```ruby
+```rb
 ActiveRecord::SessionStore::Session
 ```
 ### Cleaning up inactive sessions:
 - Automatically cleans up sessions that are inactive for last 30 days.
 - https://github.com/rails/activerecord-session_store#installation
-```ruby
+```rb
 db:sessions:trim
 ```

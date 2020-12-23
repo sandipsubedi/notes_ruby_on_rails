@@ -6,6 +6,6 @@ title: Resque
 https://github.com/resque/resque
 
 ### Clearing all the queues:
-```ruby
+```rb
 Resque.queues.each{|q| Resque.redis.del "queue:#{q}" }
 ```

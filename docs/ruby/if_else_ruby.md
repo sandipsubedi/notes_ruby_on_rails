@@ -2,7 +2,7 @@
 title: If/Else
 ---
 
-```ruby
+```rb
 food = "taco"
 
 if food == "taco"

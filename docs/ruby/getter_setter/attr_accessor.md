@@ -6,7 +6,7 @@ title: Attr Accessor
 - Basically attr_accessor is a shortcut for when you need both attr_reader and attr_writer.
 - It squashes down those two lines into one.
 
-```ruby
+```rb
 class Animal
   attr_accessor :name
   def initialize(name:)
@@ -20,14 +20,14 @@ puts t.name
 
 Output:
 
-```ruby
+```rb
 $ruby main.rb
 Freddie
 ```
 
 ### Squashing: From
 
-```ruby
+```rb
 class Person
   attr_reader :name, :age, :sex, :email
   attr_writer :name, :age, :sex, :email
@@ -39,7 +39,7 @@ end
 ```
 
 ### Suashing to:
-```ruby
+```rb
 class Person
   attr_accessor :name, :age, :sex, :email
 

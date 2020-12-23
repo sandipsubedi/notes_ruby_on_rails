@@ -7,7 +7,7 @@ TODO:
 https://ruby-doc.org/stdlib-2.7.2/libdoc/set/rdoc/Set.html
 
 
-```ruby
+```rb
 require 'set'
 s = Set.new         # <Set: {}>
 s.add(0)            # <Set: {0}>

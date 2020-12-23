@@ -5,7 +5,7 @@ title: Ruby Documentation in Command Line
 **Check Ruby Version Manager, if `rvm` is not already installed**
 
 ### To generate
-```ruby
+```rb
 rvm docs generate
 ```
 
@@ -13,7 +13,7 @@ rvm docs generate
 - Type `ri` on the terminal
 - And type the method name
 
-```ruby
+```rb
 ➜  Test git:(test_branch) ✗ ri
 
 Enter the method name you want to look up.

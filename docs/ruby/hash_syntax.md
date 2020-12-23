@@ -9,7 +9,7 @@ Great article: http://alwayscoding.ca/momentos/2012/06/15/ruby-hash-syntax-hashr
 TODO :  Learn more about these different syntax.
 
 ### Different ways to access items:
-```ruby
+```rb
 temp = { first_message: "this is a message", "second_message" => "this is a second message",
          "third_message": "this is third message", :fourth_message => "this is a fourth message"}
 

@@ -6,21 +6,21 @@ title: Ruby Version Manager
 If you want to use `2.6.3`
 
 ### Install:
-```ruby
+```rb
 rvm install "ruby-2.6.3"
 ```
 
 ### Use:
-```ruby
+```rb
 rvm use 2.6.3
 ```
 
 ### To make a ruby version default:
-```ruby
+```rb
 rvm use --default 2.6.3
 ```
 
 ### Check which ruby is being used:
-```ruby
+```rb
 rvm which ruby
 ```

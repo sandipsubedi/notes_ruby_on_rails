@@ -9,6 +9,6 @@ count++;
 ```
 
 ### Increasing in Ruby:
-```ruby
+```rb
 count += 1
 ```

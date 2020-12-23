@@ -5,7 +5,7 @@ title: Attr Reader
 - An attr_reader is a shortcut for writing an accessor method like this one:
 
 
-```ruby
+```rb
 def author
   @author
 end
@@ -13,7 +13,7 @@ end
 
 ### Example:
 
-```ruby
+```rb
 class Person
   attr_reader :name, :age, :sex, :email
 

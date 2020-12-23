@@ -4,7 +4,7 @@ title: Params Ruby
 
 ## Different types of parameter in Ruby:
 ### 1. Positional Params
-```ruby
+```rb
 def sum(salary, bonus, tax)
   salary + bonus - tax
 end
@@ -17,7 +17,7 @@ sum(100, 10, 30) # => 80
   - Keyword arguments allow us to switch the order of the arguments, without affecting the behavior of the method.
   - Also known as named parameters, keyword arguments, required keyword arguments.
 
-```ruby
+```rb
 def sum(salary:, bonus:, tax:)
   salary + bonus - tax
 end
@@ -26,7 +26,7 @@ sum(salary: 100, bonus: 10, tax: 30) # => 80
 ```
 
 #### Passing default value:
-```ruby
+```rb
 def sum(salary:, bonus: 10, tax:)
   salary + bonus - tax
 end
@@ -35,7 +35,7 @@ sum(salary: 100, tax: 30) # => 80
 ```
 
 ### 3. Variable Aruments:
-```ruby
+```rb
 
 def print_all(**args)
   print args
@@ -47,7 +47,7 @@ The **x is the same as variable arguments, but for keyword arguments. It will be
 
 4. Catch-all Argument:
 
-```ruby
+```rb
 def print_all(*)
 end
 ```
@@ -59,7 +59,7 @@ This means that the method is accepting any arguments, but it’s not doing anyt
 ```
 required -> optional -> variable -> keyword
 ```
-```ruby
+```rb
 def testing(a, b = 1, *c, d: 1, **x)
   p a,b,c,d,x
 end
@@ -88,7 +88,7 @@ In ruby, arguments inside a method are passed by reference
 ### 1. Parentheses for paramters are optional:
 
 
-```ruby
+```rb
 def method_name a,b,c
   puts a,b,c,d 
 end

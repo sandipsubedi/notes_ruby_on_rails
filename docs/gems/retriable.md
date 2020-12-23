@@ -11,7 +11,7 @@ https://github.com/kamui/retriable
 - `max_elapsed_time` is important even though `tries` and `base_interval` is defined.
 - https://github.com/kamui/retriable/issues/93
 
-```ruby
+```rb
 count = 0
 Retriable.retriable(on: [MyModule::MyClass::CustomError, Net::OpenTimeout],
                     tries: 360, base_interval: 10, max_elapsed_time: 3600) do

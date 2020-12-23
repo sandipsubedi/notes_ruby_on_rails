@@ -8,7 +8,7 @@ title: By Value vs By Ref
 - Thus, if we will change an object inside the method, then it will be changed also outside the method.
 
 ### Code
-```ruby
+```rb
 def test_reference(test_hash:)
   test_hash[:test] = "was changed inside"
 end

@@ -4,7 +4,7 @@ title: Stack
 
 TODO
 
-```ruby
+```rb
 stack = []
 stack << 1 # push 1 => stack = [1]
 stack << 2 # push 2 => stack = [1, 2]

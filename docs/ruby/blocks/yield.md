@@ -4,7 +4,7 @@ title: Yield
 
 - Passed block when method is called. Which will be executed with `yield`
 
-```ruby
+```rb
 def make_momo
   puts "---This is start"
   yield
@@ -17,7 +17,7 @@ make_momo { puts "Make momo with Tofu" }
 
 Output:
 
-```ruby
+```rb
 $ruby main.rb
 ---This is start
 Make momo with Tofu

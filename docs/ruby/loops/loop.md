@@ -4,7 +4,7 @@ title: Loop
 
 
 ### Regular:
-```ruby
+```rb
 # both 0 and 2 are inclusive
 for count in 0..2
    puts "Value of count is: #{count}"
@@ -17,22 +17,22 @@ Value of count is: 2
 ```
 
 ### Times:
-```ruby
+```rb
 10.times { |i| puts "hello #{i}" }
 ```
 
 ### Range
-```ruby
+```rb
 (1..10).each { |i| puts i }
 ```
 
 ### Stop a Loop?
-```ruby
+```rb
 break # java: break;
 ```
 
 ### Skip a loop?
-```ruby
+```rb
 next # java: continue
 ```
 

@@ -3,7 +3,7 @@ title: Type of Object
 ---
 
 1. `object.class`
-```ruby
+```rb
 [1] pry(main)> "test".class
 => String
 [2] pry(main)> [1,2,3].class
@@ -15,7 +15,7 @@ title: Type of Object
 ```
 
 2. `is_a?`
-```ruby
+```rb
 [6] pry(main)> "test".is_a? String
 => true
 [7] pry(main)> [1,2,3].is_a? Array
@@ -28,7 +28,7 @@ title: Type of Object
 
 3. `respond_to?`
 
-```ruby
+```rb
 [12] pry(main)> "test".respond_to?(:to_s)
 => true
 [13] pry(main)> "test".respond_to?(:to_a)
@@ -42,7 +42,7 @@ title: Type of Object
 ```
 
 4. `instance_of?`
-```ruby
+```rb
 [6] pry(main)> "test".instance_of? String
 => true
 [7] pry(main)> [1,2,3].instance_of? Array
@@ -60,7 +60,7 @@ title: Type of Object
 
 ### Ancestors:
 
-```ruby
+```rb
 pry(main)> 1.class.ancestors
 => [Integer, Numeric, Comparable, Object, PP::ObjectMixin, Kernel, BasicObject]
 ```

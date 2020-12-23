@@ -3,13 +3,13 @@ title: Each
 ---
 
 ### Single line
-```ruby
+```rb
 numbers = [1,2,3,4]
 numbers.each { |n| puts n }
 ```
 
 ### Multi-line
-```ruby
+```rb
 numbers = [1,2,3,4]
 numbers.each do |n|
   print n
@@ -17,19 +17,19 @@ end
 ```
 
 ### Each with a hash:
-```ruby
+```rb
 hash = { bacon: 300, coconut: 200 }
 hash.each { |key,value| puts "#{key} price is #{value}" }
 ```
 
 ### Each with index: Single Line
-```ruby
+```rb
 animals = ["cat", "dog", "tiger"]
 animals.each_with_index { |animal, idx| puts "We have a #{animal} with index #{idx}" }
 ```
 
 ### Each with index: Multi Line
-```ruby
+```rb
 animals = ["cat", "dog", "tiger"]
 animals.each_with_index do |animal, idx|
   puts "We have a #{animal} with index #{idx}"

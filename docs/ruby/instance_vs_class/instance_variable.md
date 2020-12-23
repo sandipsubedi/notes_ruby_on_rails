@@ -10,7 +10,7 @@ title: Instance Variable
 https://stackoverflow.com/questions/12924080/difference-between-instance-variable-and-attr-accessor
 
 ### Instance Variable not visible outside the object.
-```ruby
+```rb
 class MyClass
   def initialize
     @greeting = "hello"
@@ -23,7 +23,7 @@ m.greeting #results in the following error:
 ```
 
 ### Instance Variable with attr_accessor
-```ruby
+```rb
 class MyClass
   attr_accessor :greeting
 

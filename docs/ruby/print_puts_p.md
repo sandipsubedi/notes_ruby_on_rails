@@ -15,7 +15,7 @@ title: Print vs Puts vs P
 - Even espace characters on a string is displayed.
 - Helpful for debugging.
 
-```ruby
+```rb
 [12] pry(main)> print "test"
 test=> nil
 [10] pry(main)> puts "test \n"
