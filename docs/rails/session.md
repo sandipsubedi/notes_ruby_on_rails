@@ -29,10 +29,10 @@ ActiveRecord::SessionStore::Session.first
 
 - In data
 
- ```ruby
+```ruby
 2.6.3 :010 > ActiveRecord::SessionStore::Session.first.data
-  ActiveRecord::SessionStore::Session Load (0.5ms)  SELECT "sessions".* FROM "sessions" ORDER BY "sessions"."id" ASC LIMIT $1  [["LIMIT", 1]]
- => {"expires_at"=>"2020-03-30 15:50:41 UTC"}
+ActiveRecord::SessionStore::Session Load (0.5ms)  SELECT "sessions".* FROM "sessions" ORDER BY "sessions"."id" ASC LIMIT $1  [["LIMIT", 1]]
+=> {"expires_at"=>"2020-03-30 15:50:41 UTC"}
 ```
 
 
@@ -40,7 +40,6 @@ ActiveRecord::SessionStore::Session.first
 ```ruby
 ActiveRecord::SessionStore::Session
 ```
-
 ### Cleaning up inactive sessions:
 - Automatically cleans up sessions that are inactive for last 30 days.
 - https://github.com/rails/activerecord-session_store#installation

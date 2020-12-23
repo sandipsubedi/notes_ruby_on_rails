@@ -15,14 +15,22 @@ end
 - We need to attach it with something.
 
 
+
+### Multi-line
 ```ruby
-# Multi Line:
 # n ==> Block parameter.
 [0, 1, 2, 3, 4].each do |n|
-puts "Number #{n}"
+  puts "Number #{n}"
 end
+```
 
+### Single-line with do-end
+```ruby
 [0, 1, 2, 3, 4].each do |n| puts "Number #{n}" end
+```
+
+### Single-line with { }
+```ruby
 # Single line with { }
 [0, 1, 2, 3, 4].each  { |n| puts "Number #{n}"  }
 ```

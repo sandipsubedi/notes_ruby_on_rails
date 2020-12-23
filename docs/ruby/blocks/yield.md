@@ -6,10 +6,10 @@ title: Yield
 
 ```ruby
 def make_momo
-    puts "---This is start"
-    yield
-    puts yield
-    puts "This is End---"
+  puts "---This is start"
+  yield
+  puts yield
+  puts "This is End---"
 end
 
 make_momo { puts "Make momo with Tofu" }
