@@ -6,3 +6,5 @@ slug: /
 ---
 
 Documenting notes for Ruby on Rails.
+
+I came from a Java background, and still do some Java coding. So I will be comparing a lot of practices and syntax with Java.

@@ -3,7 +3,8 @@ title: Attr Accessor
 ---
 
 - Getter + Setter = attr_accessor
-- Basically attr_accessor is a shortcut for when you need both attr_reader and attr_writer. It squashes down those two lines into one.
+- Basically attr_accessor is a shortcut for when you need both attr_reader and attr_writer.
+- It squashes down those two lines into one.
 
 ```ruby
 class Animal
@@ -24,7 +25,7 @@ $ruby main.rb
 Freddie
 ```
 
-- Squashing: From
+### Squashing: From
 
 ```ruby
 class Person
@@ -37,7 +38,7 @@ class Person
 end
 ```
 
-- to:
+### Suashing to:
 ```ruby
 class Person
   attr_accessor :name, :age, :sex, :email
