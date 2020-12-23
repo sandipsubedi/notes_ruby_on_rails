@@ -7,7 +7,7 @@ title: Getter and Setter
 
 Great article: https://mixandgo.com/learn/ruby_attr_accessor_attr_reader_attr_writer
 
-```ruby
+```rb
 class Person
   def initialize(name:)
     @name = name
@@ -21,13 +21,13 @@ class Person
 end
 ```
 
-```ruby
+```rb
 john = Person.new(name: "John")
 puts john.name # => John
 ```
 
 equivalent
-```ruby
+```rb
 class Person
   attr_reader :name
 
@@ -37,7 +37,7 @@ class Person
 end
 ```
 
-```ruby
+```rb
 john = Person.new(name: "John")
 puts john.name
 ```
