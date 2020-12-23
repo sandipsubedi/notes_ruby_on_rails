@@ -25,5 +25,6 @@ module.exports = {
            "ruby/type_of_object",
            "ruby/typed"],
     RubyVersionManager: ['ruby_version_manager/rvm'],
+    Testing: ['testing/testing_private_methods'],
   },
 };
