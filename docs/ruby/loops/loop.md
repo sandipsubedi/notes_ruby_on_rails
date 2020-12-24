@@ -16,6 +16,13 @@ Value of count is: 1
 Value of count is: 2
 ```
 
+```rb
+nums = ['one', 'two', 'three', 'four']
+for num in nums
+  puts num
+end 
+```
+
 ### Times:
 ```rb
 10.times { |i| puts "hello #{i}" }
