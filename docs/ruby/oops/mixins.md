@@ -3,6 +3,8 @@ title: Mixins
 ---
 
 - mix-in-s
+- A mixin can basically be thought of as a set of code that can be added to one or more classes to add additional capabilities without using inheritance
+- Good article: https://www.sitepoint.com/ruby-mixins-2/ 
 
 ### Including multiple modules:
 ```rb
