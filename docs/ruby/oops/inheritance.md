@@ -6,9 +6,7 @@ title: Inheritance
 - But you can accomplish this with mixins.
 - But can do `include` and `extend`.
 
-
 ### Sub-class/Superclass:
-
 ```rb
 class Animal
   def eat
