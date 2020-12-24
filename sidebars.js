@@ -29,7 +29,7 @@ module.exports = {
                      'ruby/loops/until',
                      'ruby/loops/while'] },
            { OOPS: ['ruby/oops/class',
-                    'ruby/include_vs_extend',
+                    'ruby/oops/include_vs_extend',
                     'ruby/oops/include_vs_require',
                     'ruby/oops/inheritance',
                     'ruby/oops/mixins',

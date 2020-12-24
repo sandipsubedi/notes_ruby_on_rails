@@ -2,6 +2,9 @@
 title: Ruby Documentation in Command Line
 ---
 
+- ri => Ruby Index
+- rDoc => Ruby Documntation
+
 **Check Ruby Version Manager, if `rvm` is not already installed**
 
 ### To generate
