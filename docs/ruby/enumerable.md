@@ -1,5 +1,0 @@
----
-title: Enumerable
----
-
-TODO
