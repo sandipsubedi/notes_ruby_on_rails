@@ -15,3 +15,6 @@ queue << 3
 
 queue.pop # pop 2
 ```
+
+### Also see:
+Sized Queue

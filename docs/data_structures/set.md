@@ -18,3 +18,6 @@ s.instance_of?(Set)
 
 s.size # 2
 ```
+
+### Also see:
+Sorted Set
