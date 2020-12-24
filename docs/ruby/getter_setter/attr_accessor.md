@@ -29,11 +29,13 @@ Freddie
 
 ```rb
 class Person
-  attr_reader :name, :age, :sex, :email
-  attr_writer :name, :age, :sex, :email
+  attr_reader :first_name, :last_name, :email
+  attr_writer :first_name, :last_name, :email
 
-  def initialize(name)
-    @name = name
+  def initialize(first_name, last_name, email)
+    @first_name = first_name
+    @last_name = last_name
+    @email = email
   end
 end
 ```
@@ -41,9 +43,11 @@ end
 ### Squashing to:
 ```rb
 class Person
-  attr_accessor :name, :age, :sex, :email
+  attr_accessor :first_name, :last_name, :email
 
-  def initialize(name)
-    @name = name
+  def initialize(first_name, last_name, email)
+    @first_name = first_name
+    @last_name = last_name
+    @email = email
   end
 end

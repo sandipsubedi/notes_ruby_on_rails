@@ -15,12 +15,11 @@ end
 
 ```rb
 class Person
-  attr_reader :name, :age, :sex, :email
+  attr_reader :first_name, :last_name, :email
 
-  def initialize(name:, age:, sex:, email:)
-    @name = name
-    @age = age
-    @sex = sex
+  def initialize(first_name:, last_name:, email:)
+    @first_name = first_name
+    @last_name = last_name
     @email = email
   end
 end

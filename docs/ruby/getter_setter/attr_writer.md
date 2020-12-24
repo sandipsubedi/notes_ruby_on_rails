@@ -6,11 +6,12 @@ title: Attr Writer
 
 ```rb
 class Person
-  attr_reader :name, :age, :sex, :email
-  attr_writer :name, :age, :sex, :email
+  attr_reader :first_name, :last_name, :email
+  attr_writer :first_name, :last_name, :email
 
-  def initialize(name)
-    @name = name
+  def initialize(first_name, last_name)
+    @first_name = first_name
+    @last_name = last_name
   end
 end
 ```
