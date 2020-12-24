@@ -11,20 +11,22 @@ https://stackoverflow.com/questions/12924080/difference-between-instance-variabl
 
 ### Instance Variable not visible outside the object.
 ```rb
-class MyClass
+class Human
   def initialize
     @greeting = "hello"
   end
 end
 
-m = MyClass.new
-m.greeting #results in the following error:
-  #NoMethodError: undefined method `greeting' for #<MyClass:0x007f9e5109c058 @greeting="hello">
+=> #<Human:0x00007faaf10ca730 @greeting="hello">
+[3] pry(main)> human.greeting
+NoMethodError: undefined method `greeting'
+for #<Human:0x00007faaf10ca730 @greeting="hello">
+from (pry):7:in `__pry__'
 ```
 
 ### Instance Variable with attr_accessor
 ```rb
-class MyClass
+class Human
   attr_accessor :greeting
 
   def initialize
@@ -32,7 +34,11 @@ class MyClass
   end
 end
 
-m2 = MyClass.new
-m2.greeting = "bonjour" # <-- set the @greeting variable from outside the object
-m2.greeting #=> "bonjour"   <-- didn't blow up as attr_accessor makes the variable accessible from outside the object
+m2 = Human.new
+m2.greeting = "bonjour"
+# <-- set the @greeting variable from outside the object
+
+m2.greeting
+#=> "bonjour"  didn't blow up as attr_accessor
+# makes the variable accessible from outside the object
 ```

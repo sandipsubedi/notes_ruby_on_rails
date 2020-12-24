@@ -8,11 +8,16 @@ Great article: http://alwayscoding.ca/momentos/2012/06/15/ruby-hash-syntax-hashr
 
 TODO :  Learn more about these different syntax.
 
-### Different ways to access items:
+### Different ways create hash:
 ```rb
-temp = { first_message: "this is a message", "second_message" => "this is a second message",
-         "third_message": "this is third message", :fourth_message => "this is a fourth message"}
+temp = { first_message: "this is a message",
+         "second_message" => "this is a second message",
+         "third_message": "this is third message",
+         :fourth_message => "this is a fourth message"}
+```
 
+### Ways to access them
+```
 2.6.3 :024 > temp[:first_message]
  => "this is a message"
  2.6.3 :023 > temp["second_message"]

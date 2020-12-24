@@ -23,15 +23,20 @@ path: '/'
 ### Sample session object:
 ```rb
 ActiveRecord::SessionStore::Session.first
-  ActiveRecord::SessionStore::Session Load (0.5ms)  SELECT "sessions".* FROM "sessions" ORDER BY "sessions"."id" ASC LIMIT $1  [["LIMIT", 1]]
- => #<ActiveRecord::SessionStore::Session id: 1, session_id: "d1223423423412352358", data: "2423423422V4cGlyZXNfYXQ435435asdfHDIwMTYtMD35345AgMT...", created_at: "2016-03-30 14:50:41", updated_at: "2016-03-30 14:50:41">
+  ActiveRecord::SessionStore::Session Load (0.5ms)  SELECT "sessions".* 
+  FROM "sessions" ORDER BY "sessions"."id" ASC LIMIT $1  [["LIMIT", 1]]
+ => #<ActiveRecord::SessionStore::Session id: 1, session_id: "d1223423423412352358",
+    # data: "2423423422V4cGlyZXNfYXQ435435asdfHDIwMTYtMD35345AgMT...",
+    # created_at: "2016-03-30 14:50:41",
+    # updated_at: "2016-03-30 14:50:41">
 ```
 
 - In data
 
 ```rb
 2.6.3 :010 > ActiveRecord::SessionStore::Session.first.data
-ActiveRecord::SessionStore::Session Load (0.5ms)  SELECT "sessions".* FROM "sessions" ORDER BY "sessions"."id" ASC LIMIT $1  [["LIMIT", 1]]
+ActiveRecord::SessionStore::Session Load (0.5ms)  SELECT "sessions".*
+FROM "sessions" ORDER BY "sessions"."id" ASC LIMIT $1  [["LIMIT", 1]]
 => {"expires_at"=>"2020-03-30 15:50:41 UTC"}
 ```
 

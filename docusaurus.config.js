@@ -84,13 +84,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/sandipsubedi/notes_ruby_on_rails/',
+            'https://github.com/sandipsubedi/notes_ruby_on_rails/tree/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/sandipsubedi/notes_ruby_on_rails/blog/',
+            'https://github.com/sandipsubedi/notes_ruby_on_rails/tree/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

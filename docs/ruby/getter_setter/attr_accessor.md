@@ -38,7 +38,7 @@ class Person
 end
 ```
 
-### Suashing to:
+### Squashing to:
 ```rb
 class Person
   attr_accessor :name, :age, :sex, :email
