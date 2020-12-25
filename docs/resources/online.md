@@ -2,8 +2,9 @@
 title: Online
 ---
 
-Great articles: https://www.rubyguides.com/
-
+### Great articles:
+https://medium.com/rubycademy
+https://www.rubyguides.com/
 https://medium.com/@sologoubalex
 
 ### Good beginners guide:

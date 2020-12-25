@@ -1,5 +1,5 @@
 ---
-title: Print vs Puts vs P
+title: Print vs Puts vs P vs putc
 ---
 
 1. Print:
@@ -14,6 +14,9 @@ title: Print vs Puts vs P
 - Displays the raw object.
 - Even espace characters on a string is displayed.
 - Helpful for debugging.
+
+4. putc
+- Only prints 1 character at a time.
 
 ```rb
 [12] pry(main)> print "test"
