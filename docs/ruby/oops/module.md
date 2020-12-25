@@ -2,6 +2,20 @@
 title: Module
 ---
 
+- Modules cannot be instantiated as classes.
+```rb
+module Animal
+  def eat
+    p "I eat food"
+  end
+end
+
+animal = Animal.new
+
+# Optput:
+$ruby main.rb
+main.rb:7:in `<main>': undefined method `new' for Animal:Module (NoMethodError)
+```
 
 ### 2 main benefits of Modules
 1. Grouping things together.

@@ -1,0 +1,5 @@
+---
+title: Singleton Method
+---
+
+TODO
