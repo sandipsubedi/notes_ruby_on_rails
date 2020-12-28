@@ -3,6 +3,8 @@ title: Module
 ---
 
 - Modules cannot be instantiated as classes.
+- Create namespace and group things together.
+
 ```rb
 module Animal
   def eat

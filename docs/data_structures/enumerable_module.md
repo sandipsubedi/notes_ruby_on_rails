@@ -14,4 +14,5 @@ title: Enumerable Module
 - map
 - collect
 - sum
-- 
+- select
+- each
