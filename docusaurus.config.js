@@ -1,18 +1,18 @@
 module.exports = {
   title: 'Sandip Subedi',
   tagline: 'Ruby on Rails Notes',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://rubyonrails-notes.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'sandipsubedi', // Usually your GitHub org/user name.
+  projectName: 'notes-rubyonrails', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Sandip Subedi',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Sandip Subedi logo',
         src: 'img/logo.svg',
       },
       items: [

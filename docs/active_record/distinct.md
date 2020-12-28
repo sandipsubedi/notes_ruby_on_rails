@@ -5,6 +5,10 @@ title: Distinct
 ### Mostly used with Select:
 ```rb
 Model.select(:rating).distinct
+
+
+User.select(:name).distinct
+SELECT DISTINCT "users"."name" FROM "users"
 ```
 
 ### If nothing is passed, id is used:
