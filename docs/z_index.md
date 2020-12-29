@@ -1,5 +1,4 @@
 ---
-id: index
 title: Ruby on Rails Notes
 sidebar_label: Ruby on Rails
 slug: /
