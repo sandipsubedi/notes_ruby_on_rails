@@ -2,6 +2,8 @@
 title: Private Constant
 ---
 
+- If you want a constant to remain private, use private_consant
+
 ### Regular Constant
 
 ```rb

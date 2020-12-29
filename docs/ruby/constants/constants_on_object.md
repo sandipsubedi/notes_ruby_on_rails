@@ -2,7 +2,6 @@
 title: Constants on Object
 ---
 
-
 ```rb
 class Animal
     FOOD = ["grass", "meat"]

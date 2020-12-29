@@ -16,6 +16,8 @@ module.exports = {
                       'data_structures/sized_queue',
                       'data_structures/sorted_set',
                       'data_structures/stack'],
+    DesignPatterns: ['design_patterns/servie_objects',
+                     'design_patterns/singleton'],
     Gems: ['gems/retriable', 'gems/resque'],
     Rails: ['rails/callbacks',
             'rails/HashWithIndifferent',
