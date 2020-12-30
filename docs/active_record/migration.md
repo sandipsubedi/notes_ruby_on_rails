@@ -53,4 +53,9 @@ end
 == 20201229223838 AddIndexToUser: migrated (13.1014s) =====================
 ```
 
-Solution??
+
+### Problem
+- It will basically cause a downtime for 13 seconds
+
+### Solution
+- Check: table lock during migration

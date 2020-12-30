@@ -24,8 +24,8 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://github.com/sandipsubedi/notes_ruby_on_rails',
+          label: 'On GitHub',
           position: 'right',
         },
       ],

@@ -65,3 +65,6 @@ main.rb:14:in `include': wrong argument type Class (expected Module) (TypeError)
 	from main.rb:14:in `<class:Bird>'
 	from main.rb:13:in `<main>'
 ```
+
+### Check:
+- include vs extend

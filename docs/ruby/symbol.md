@@ -6,7 +6,6 @@ TODO
 
 - Symbols are identifiers.
 
-
 ### Changing String to Symbol Ruby:
 ```rb
 pry(main)> "test".to_sym
