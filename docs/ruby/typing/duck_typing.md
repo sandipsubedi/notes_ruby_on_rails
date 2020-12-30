@@ -1,0 +1,5 @@
+---
+title: Duck Typing
+---
+
+TODO
