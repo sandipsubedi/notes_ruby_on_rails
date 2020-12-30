@@ -58,4 +58,4 @@ end
 - It will basically cause a downtime for 13 seconds
 
 ### Solution
-- Check: table lock during migration
+- Check: [Table lock during migration.](/docs/active_record/table_lock_during_migration)

@@ -59,5 +59,8 @@ Output:
 - Interesting enough, it took about the same time.
 
 
-Resources:
+### Resources:
 - Good article: https://semaphoreci.com/blog/2017/06/21/faster-rails-indexing-large-database-tables.html
+
+### Check
+-  [Migration](/docs/active_record/migration)
