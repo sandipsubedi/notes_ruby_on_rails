@@ -6,6 +6,7 @@ title: Private from Super class
 ```rb
 class Animal
     private
+
     def eat
         p "I eat."
     end

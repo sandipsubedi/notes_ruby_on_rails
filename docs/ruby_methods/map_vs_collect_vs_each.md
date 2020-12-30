@@ -1,2 +1,5 @@
-# Map vs Collect vs Each:
+---
+title: Map vs Collect vs Each
+---
 
+TODO

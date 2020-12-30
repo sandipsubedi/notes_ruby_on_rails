@@ -6,6 +6,7 @@ title: Protected from super class
 ```rb
 class Animal
     protected
+
     def eat
         p "I eat."
     end
