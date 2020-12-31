@@ -10,5 +10,7 @@ I came from a Java background, and still do some Java coding. So I will be compa
 
 This documentation is work-in-progress. And, I will be adding more and more as we go.
 
+The Notes and examples are created on Ruby 2.6 and Rails 6.
+
 ### Features:
 1. A lot of real life examples.
