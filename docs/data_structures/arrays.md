@@ -2,15 +2,12 @@
 title: Arrays
 ---
 
-TODO
-
 https://ruby-doc.org/core-2.7.0/Array.html
 
 ### Arrays can also be used for:
 - Stack
 - Queue
 - LinkedList.
-
 
 ### %w
 - %w string literal creates an Array of String-s if you supply words separated by whitespaces inside the brackets.
