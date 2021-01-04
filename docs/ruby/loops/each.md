@@ -28,6 +28,12 @@ animals = ["cat", "dog", "tiger"]
 animals.each_with_index { |animal, idx| puts "We have a #{animal} with index #{idx}" }
 ```
 
+### Each Index:
+```rb
+animals = ["cat", "dog", "tiger"]
+animals.each_index { |animal, idx| puts "We have a #{animal} with index #{idx}" }
+```
+
 ### Each with index: Multi Line
 ```rb
 animals = ["cat", "dog", "tiger"]

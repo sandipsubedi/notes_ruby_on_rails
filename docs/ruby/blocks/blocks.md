@@ -4,6 +4,7 @@ title: Blocks
 
 - one or more lines of code that you put inside the do and end keywords.
 - or { and } for inline blocks.
+- We can pass one or more variables into the block.
 
 ```rb
 do
