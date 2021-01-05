@@ -1,5 +1,5 @@
 ---
-title: observers
+title: Observers
 ---
 
 TODO

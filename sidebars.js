@@ -99,6 +99,8 @@ module.exports = {
                       'ruby/oops/inheritance',
                       'ruby/oops/lexical_scoping',
                       'ruby/oops/mixins',
+                      'ruby/oops/module_nesting',
+                      'ruby/oops/module_vs_class',
                       'ruby/oops/module',
                       'ruby/oops/object',
                       'ruby/oops/self',
