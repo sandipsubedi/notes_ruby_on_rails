@@ -39,7 +39,9 @@ module.exports = {
            'gems/zeitwerk'],
     Rails: [{ Routes: ['rails/routes/breaking_routes',
                        'rails/routes/member_vs_collection',
-                       'rails/routes/routes'
+                       'rails/routes/namespace_vs_resources',
+                       'rails/routes/routes',
+                       'rails/routes/scope'
                       ]},
             'rails/callbacks',
             'rails/concerns',
@@ -149,7 +151,8 @@ module.exports = {
     Mistakes: ['mistakes_while_learning_rails'],
     Performance: ['performance'],
     ReloadConsole: ['reload_console'],
-    Resources: ['z_resources/books',
+    Resources: ['z_resources/blogs',
+                'z_resources/books',
                 'z_resources/conference',
                 'z_resources/online',
                 'z_resources/forum',

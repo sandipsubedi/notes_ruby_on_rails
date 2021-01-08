@@ -2,14 +2,15 @@
 title: Private from Super class
 ---
 
+- Private from superclass cannot be called.
 
 ```rb
 class Animal
-    private
+  private
 
-    def eat
-        p "I eat."
-    end
+  def eat
+      p "I eat."
+  end
 end
 
 class Tiger < Animal

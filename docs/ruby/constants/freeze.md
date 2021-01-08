@@ -2,7 +2,7 @@
 title: Freeze
 ---
 
-### Solution? use freeze? Maybe
+### Solution to problem of manipulating constant? use freeze? Maybe
 
 ```rb
 [5] pry(main)> food = ["tacos", "apple", "sushi"].freeze
