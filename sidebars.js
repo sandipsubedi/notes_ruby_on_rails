@@ -46,7 +46,7 @@ module.exports = {
             'rails/callbacks',
             'rails/concerns',
             'rails/convention_over_configuration',
-            'rails/generae_uml_diagram',
+            'rails/generate_uml_diagram',
             'rails/HashWithIndifferent',
             'rails/middleware',
             'rails/observers',
