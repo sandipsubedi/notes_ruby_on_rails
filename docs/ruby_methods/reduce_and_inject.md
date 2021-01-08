@@ -1,5 +1,5 @@
 ---
-title: Reduce
+title: Reduce and Inject
 ---
 
 - The inject and reduce methods are aliases. There is no performance benefit to either.

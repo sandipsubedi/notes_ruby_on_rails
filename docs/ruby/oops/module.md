@@ -19,9 +19,14 @@ $ruby main.rb
 main.rb:7:in `<main>': undefined method `new' for Animal:Module (NoMethodError)
 ```
 
-### 2 main benefits of Modules
-1. Grouping things together.
+### Places where modules can be used.
+1. NameSpace
+- Grouping things together.
+
 2. Makes mixins possible, thus removes the need for multiple inheritance.
+
+3. Place to store stateless helpers
+- Helpers, Maths
 
 - Modules are a way of grouping together methods, classes, and constants.
 - Module constants are named just like class constants, with an initial uppercase letter.

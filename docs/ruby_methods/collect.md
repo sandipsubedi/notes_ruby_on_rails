@@ -22,9 +22,11 @@ title: Collect
 
 ### Select and find_all are same:
 ```rb
+# Returns manipulated
 [14] pry(main)> [1,2,3,4,5,6,7,8].select { |num| num > 2 }
 => [3, 4, 5, 6, 7, 8]
 
+# Returns Origional because there is no conditional
 [15] pry(main)> [1,2,3,4,5,6,7,8].select { |num| num*2 }
 => [1, 2, 3, 4, 5, 6, 7, 8]
 
