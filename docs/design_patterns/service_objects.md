@@ -25,6 +25,6 @@ app
 ```
 
 ### Resources:
-Service Objects: https://blog.appsignal.com/2020/06/17/using-service-objects-in-ruby-on-rails.html
+- Service Objects: https://blog.appsignal.com/2020/06/17/using-service-objects-in-ruby-on-rails.html
 
 OpenStruct: TODO

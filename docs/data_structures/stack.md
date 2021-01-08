@@ -67,4 +67,4 @@ stack.pop  # pop => 2, stack = [1]
 ```
 
 ### Related LeetCode problem:
-https://leetcode.com/problems/valid-parentheses/
+- https://leetcode.com/problems/valid-parentheses/

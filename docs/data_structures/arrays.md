@@ -2,8 +2,6 @@
 title: Arrays
 ---
 
-https://ruby-doc.org/core-2.7.0/Array.html
-
 ### Arrays can also be used for:
 - Stack
 - Queue
@@ -32,3 +30,6 @@ https://ruby-doc.org/core-2.7.0/Array.html
 [47] pry(main)> %W[a b #{c} d]
 => ["a", "b", "3", "d"]
 ```
+
+### Resources:
+- https://ruby-doc.org/core-2.7.0/Array.html
