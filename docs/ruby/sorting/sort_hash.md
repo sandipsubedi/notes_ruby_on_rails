@@ -19,8 +19,10 @@ title: Sort Hash
 ```rb
 [25] pry(main)> values
 => {:two=>2, :three=>3, :one=>1}
+
 [26] pry(main)> values.sort_by{|k,v| v}
 => [[:one, 1], [:two, 2], [:three, 3]]
+
 [43] pry(main)> values.sort_by{|k,v| v }.to_h
 => {:one=>1, :two=>2, :three=>3}
 ```
@@ -30,8 +32,10 @@ title: Sort Hash
 ```rb
 [29] pry(main)> values
 => {:two=>2, :three=>3, :one=>1}
+
 [30] pry(main)> values.sort_by{|k,v| -v}
 => [[:three, 3], [:two, 2], [:one, 1]]
+
 [44] pry(main)> values.sort_by{|k,v| -v }.to_h
 => {:three=>3, :two=>2, :one=>1}
 ```
@@ -41,6 +45,7 @@ title: Sort Hash
 ```rb
 [46] pry(main)> values
 => {:two=>2, :three=>3, :one=>1}
+
 [47] pry(main)> values.sort_by{|k,v| k }.to_h
 => {:one=>1, :three=>3, :two=>2}
 ```

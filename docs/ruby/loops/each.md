@@ -35,6 +35,20 @@ animals.each_index { |animal, idx| puts "We have a #{animal} with index #{idx}" 
 ```
 
 ### Each with index: Multi Line
+
+- This is one of the closest to Java's regular for loop
+
+- Java
+
+```java
+String[] animals = { "cat", "dog", "tiger" };
+for(int count = 0; count < animals.length; count++){
+  System.out.println(animals[count]);
+}
+```
+
+- Ruby
+
 ```rb
 animals = ["cat", "dog", "tiger"]
 animals.each_with_index do |animal, idx|

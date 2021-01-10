@@ -16,6 +16,18 @@ Value of count is: 1
 Value of count is: 2
 ```
 
+### Similar to Java for-each loop
+
+- Java
+
+```java
+int[] nums = { 'one', 'two', 'three', 'four' }
+for(int num: nums){
+  System.out.println(num);
+}
+```
+- Ruby
+
 ```rb
 nums = ['one', 'two', 'three', 'four']
 for num in nums
