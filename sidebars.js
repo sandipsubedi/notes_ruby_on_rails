@@ -140,6 +140,7 @@ module.exports = {
            { Threads: ['ruby/threads/thread',
                        'ruby/threads/thread_pooling'] },
            {Typing: ['ruby/typing/duck_typing',
+                     'ruby/typing/dynamic_typing',
                      'ruby/typing/typed']},
           { Visibility: ['ruby/visibility/private_from_super_class',
                          'ruby/visibility/protected_from_super_class',

@@ -3,4 +3,5 @@ title: HashWithIndifferent
 ---
 
 TODO
-HashWithIndifferent vs Ruby Hash
+
+- HashWithIndifferent vs Ruby Hash

@@ -14,6 +14,7 @@ title: Queue
 ```rb
 [40] pry(main)> queue << 1
 => #<Thread::Queue:0x00007f9d968bb0b0>
+
 [41] pry(main)> queue << 2
 => #<Thread::Queue:0x00007f9d968bb0b0>
 ```
@@ -31,11 +32,14 @@ title: Queue
 ```rb
 57] pry(main)> queue.size
 => 3
+
 [58] pry(main)> queue.pop
 => "first"
+
 [59] pry(main)> queue.size
 => 2
 ```
+
 ### Java Peek Equivalent.
 - Doesn't seem like there is one.
 - Implementing Queue in an array is another approach.
@@ -44,6 +48,7 @@ title: Queue
 ```
 [60] pry(main)> queue.clear
 => #<Thread::Queue:0x00007f9d96aa0498>
+
 [62] pry(main)> queue.size
 => 0
 ```

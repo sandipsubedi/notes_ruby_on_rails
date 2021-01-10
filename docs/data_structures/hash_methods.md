@@ -14,18 +14,10 @@ title: Hash Methods
 => {"first"=>1}
 ```
 
-### Delete a record:
+### Get a record:
 ```rb
-[102] pry(main)> temp
-=> {:first_message=>"this is a message",
- :third_message=>"this is third message",
- :fourth_message=>"this is a fourth message"}
-
-[103] pry(main)> temp.delete(:first_message)
-=> "this is a message"
-
-[104] pry(main)> temp
-=> {:third_message=>"this is third message", :fourth_message=>"this is a fourth message"}
+[120] pry(main)> map['first']
+=> 1
 ```
 
 ### Check if contains key
@@ -38,6 +30,20 @@ title: Hash Methods
 
 [111] pry(main)> temp.has_key?(:third_message)
 => true
+```
+
+### Delete a record:
+```rb
+[102] pry(main)> temp
+=> {:first_message=>"this is a message",
+ :third_message=>"this is third message",
+ :fourth_message=>"this is a fourth message"}
+
+[103] pry(main)> temp.delete(:first_message)
+=> "this is a message"
+
+[104] pry(main)> temp
+=> {:third_message=>"this is third message", :fourth_message=>"this is a fourth message"}
 ```
 
 ### Delete all records
@@ -64,3 +70,6 @@ temp.length
 
 ### Resources:
 - https://www.shortcutfoo.com/app/dojos/ruby-hashes/cheatsheet
+
+### Related leetcode problem:
+- https://leetcode.com/problems/two-sum/

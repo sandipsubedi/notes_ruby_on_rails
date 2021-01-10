@@ -1,2 +1,4 @@
-# Namespace vs Resources:
+---
+title: Namespace vs Resources
+---
 

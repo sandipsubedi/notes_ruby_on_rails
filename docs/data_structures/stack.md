@@ -22,12 +22,16 @@ stack.pop  # pop => 2, stack = [1]
 ```rb
 [88] pry(main)> stack
 => [1, 2, 3]
+
 [89] pry(main)> stack.push(4)
 => [1, 2, 3, 4]
+
 [90] pry(main)> stack.push 5
 => [1, 2, 3, 4, 5]
+
 [91] pry(main)> stack << 6
 => [1, 2, 3, 4, 5, 6]
+
 [92] pry(main)> stack
 => [1, 2, 3, 4, 5, 6]
 ```
@@ -37,8 +41,10 @@ stack.pop  # pop => 2, stack = [1]
 ```rb
 [74] pry(main)> stack
 => [1, 2, 3]
+
 [75] pry(main)> stack.pop
 => 3
+
 [76] pry(main)> stack
 => [1, 2]
 ```
@@ -47,21 +53,25 @@ stack.pop  # pop => 2, stack = [1]
 ```rb
 [79] pry(main)> stack
 => [1, 2, 3]
+
 [80] pry(main)> stack.last
 => 3
 ```
 
-### size/length
+### size/length/count
 - Size, count, length returns the same result.
 - Check the article on size, count and length to learn more about their differences.
 
 ```rb
 [84] pry(main)> stack
 => [1, 2, 3]
+
 [85] pry(main)> stack.size
 => 3
+
 [86] pry(main)> stack.count
 => 3
+
 [87] pry(main)> stack.length
 => 3
 ```

@@ -2,12 +2,9 @@
 title: Service Objects
 ---
 
-TODO
-
-- The job of a service object is to encapsulate functionality, 
-- execute one service
-- and provide a single point of failure
-
+- The job of a service object is to encapsulate functionality
+- Execute one service
+- And, provide a single point of failure
 
 ### 3 patterns that all service objects follow:
 1. Public Initialize method

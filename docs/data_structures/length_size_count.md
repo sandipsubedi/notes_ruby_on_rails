@@ -24,13 +24,17 @@ arr.count(1) # => 2
 ```rb
 [38] pry(main)> temp = [1,2,3]
 => [1, 2, 3]
+
 [39] pry(main)> temp.size
 => 3
+
 [40] pry(main)> temp.length
 => 3
+
 # () is optional in Ruby
 [41] pry(main)> temp.length()
 => 3
+
 [42] pry(main)> temp.count
 => 3
 ```

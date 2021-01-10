@@ -14,6 +14,7 @@ s.size # 2
 ```rb
 [25] pry(main)> set.add([4,5,6])
 => #<Set: {1, 2, [4, 5, 6]}>
+
 [26] pry(main)> set.add("hello")
 => #<Set: {1, 2, [4, 5, 6], "hello"}>
 ```
@@ -22,10 +23,13 @@ s.size # 2
 ```rb
 [16] pry(main)> set = Set.new
 => #<Set: {}>
+
 [17] pry(main)> set.add(1)
 => #<Set: {1}>
+
 [18] pry(main)> set.add(2)
 => #<Set: {1, 2}>
+
 [19] pry(main)> set.add(3)
 => #<Set: {1, 2, 3}>
 ```
@@ -34,6 +38,7 @@ s.size # 2
 ```rb
 [22] pry(main)> set.add(3)
 => #<Set: {1, 2, 3}>
+
 [23] pry(main)> set.delete(3)
 => #<Set: {1, 2}>
 ```

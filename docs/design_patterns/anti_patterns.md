@@ -2,7 +2,7 @@
 title: Anti Pattern
 ---
 
-- a software anti-pattern is a pattern that may be commonly used but is considered ineffective or counterproductive.
+- A software anti-pattern is a pattern that may be commonly used but is considered ineffective or counterproductive.
 
 ### Examples of Anti-Pattern
 1. Goldern Hammer
