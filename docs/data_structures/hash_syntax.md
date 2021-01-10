@@ -3,6 +3,17 @@ title: Hash
 ---
 
 - Hashrocket vs JSON-Style
+- Hash key can be a string or a symbol.
+
+- Using symbols as hash keys is preferred whenever possible.
+- Every instance of a symbol points to the same object, whereas each instance of a string refers to a unique object.
+- Using symbols as keys results in slightly better performance and less memory usage.
+
+```rb
+a = {} (or a = Hash.new)
+a['one'] = 1 # a = {"one"=>1}
+a['two'] = 2 # a = {"one"=>1, "two"=>2}
+```
 
 ### Ways to create symbol key:
 - This is more popular.
@@ -40,3 +51,5 @@ temp = { "second_message" => "this is a second message" }
 - Great article: http://alwayscoding.ca/momentos/2012/06/15/ruby-hash-syntax-hashrocket-vs-json-style/
 
 - Symbol is faster than String: https://medium.com/@gorbikoff/ruby-hash-key-showdown-symbol-vs-string-c0655afbcfca
+
+- Hash: https://ruby-doc.org/core-2.7.2/Hash.html

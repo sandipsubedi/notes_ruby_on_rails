@@ -2,25 +2,21 @@
 title: Table Lock during migration
 ---
 
-TODO
-
-- index creation on a database table is a synchronous action that prevents INSERT, UPDATE, and DELETE operations until the full index is created
+- Index creation on a database table is a synchronous action that prevents INSERT, UPDATE, and DELETE operations until the full index is created
 
 
 ### Solutions?
 1. Postgresql way:
-- 
-
+- TODO
 
 2. Rails Way:
 - Adding: `:algorithm => :concurrently`
 
-
 - Migration:
 ```rb
-  def up
-    add_index :users, :id, :algorithm => :concurrently
-  end
+def up
+  add_index :users, :id, :algorithm => :concurrently
+end
 ```
 
 - Output:
@@ -41,10 +37,10 @@ PG::ActiveSqlTransaction: ERROR:  CREATE INDEX CONCURRENTLY cannot run inside a 
 
 - Migration
 ```rb
-  disable_ddl_transaction!
-  def up
-    add_index :users, :id, :algorithm => :concurrently
-  end
+disable_ddl_transaction!
+def up
+  add_index :users, :id, :algorithm => :concurrently
+end
 ```
 
 Output:

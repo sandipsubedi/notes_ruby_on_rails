@@ -2,13 +2,11 @@
 title: Migration
 ---
 
-TODO
-
 - Rails runs each migration inside a transaction.
 - If the migration fails, the transaction is rolled back.
 
 
-### Time taken removing the index:
+### Example: time taken removing the index:
 - User table has 1 Million rows:
 - It was pretty fast. 3 Milliseconds for 1 million rows.
 
@@ -29,7 +27,7 @@ end
 == 20201229223838 RemoveIndexFromUser: migrated (0.0368s) ======================
 ```
 
-### Time taken adding the index:
+### Example: time taken adding the index:
 - User table has 1 million rows:
 - It's slow. 13 seconds for 1 million rows.
 - Imagine what happens when you have 10/100 Million rows?
@@ -42,7 +40,6 @@ class AddIndexOnUser < ActiveRecord::Migration[6.0]
     add_index :users, :id
   end
 end
-
 ```
 
 - Output on console
@@ -53,9 +50,10 @@ end
 == 20201229223838 AddIndexToUser: migrated (13.1014s) =====================
 ```
 
-
-### Problem
-- It will basically cause a downtime for 13 seconds
+### Problem ?
+:::warning
+It will basically cause a downtime for 13 seconds
+:::
 
 ### Solution
 - Check: [Table lock during migration.](/docs/active_record/table_lock_during_migration)

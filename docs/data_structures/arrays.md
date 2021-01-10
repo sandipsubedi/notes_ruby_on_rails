@@ -8,7 +8,7 @@ title: Arrays
 - LinkedList.
 
 ### %w
-- %w string literal creates an Array of String-s if you supply words separated by whitespaces inside the brackets.
+- %w string literal creates an Array of Strings if you supply words separated by whitespaces inside the brackets.
 - Treats given string as inside single quotes.
 
 ```rb
@@ -25,8 +25,10 @@ title: Arrays
 ```rb
 [43] pry(main)> c = 3
 => 3
+
 [45] pry(main)> %W[a b c d]
 => ["a", "b", "c", "d"]
+
 [47] pry(main)> %W[a b #{c} d]
 => ["a", "b", "3", "d"]
 ```

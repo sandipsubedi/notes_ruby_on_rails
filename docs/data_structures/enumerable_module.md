@@ -16,3 +16,6 @@ title: Enumerable Module
 - sum
 - select
 - each
+
+### Resources:
+- https://ruby-doc.org/core-3.0.0/Enumerable.html
