@@ -2,6 +2,7 @@
 title: Type of Object
 ---
 
+### class
 1. `object.class`
 ```rb
 [1] pry(main)> "test".class
@@ -14,7 +15,8 @@ title: Type of Object
 => Float
 ```
 
-2. `is_a?`
+### is_a?
+
 ```rb
 [6] pry(main)> "test".is_a? String
 => true
@@ -26,7 +28,7 @@ title: Type of Object
 => true
 ```
 
-3. `respond_to?`
+### respond_to?
 
 ```rb
 [12] pry(main)> "test".respond_to?(:to_s)
@@ -41,7 +43,8 @@ title: Type of Object
 => true
 ```
 
-4. `instance_of?`
+### instance_of?
+
 ```rb
 [6] pry(main)> "test".instance_of? String
 => true

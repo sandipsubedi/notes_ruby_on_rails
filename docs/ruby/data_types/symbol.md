@@ -4,7 +4,7 @@ title: Symbol
 
 TODO
 
-- Symbols are identifiers.
+- Symbols are labels or identifiers.
 - Symbols are cheaper than strings (in terms of computer memory.)
 - If you use a word over and over in your program, use a symbol.
 - Rather than having thousands of copies of that word in memory, the computer will store the symbol only once.
