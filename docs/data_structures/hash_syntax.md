@@ -15,7 +15,7 @@ a['one'] = 1 # a = {"one"=>1}
 a['two'] = 2 # a = {"one"=>1, "two"=>2}
 ```
 
-### Ways to create symbol key:
+### Symbol Key:
 - This is more popular.
 
 ```rb
@@ -35,7 +35,7 @@ temp = { first_message: "this is a message",
  => "this is a fourth message"
 ```
 
-### Ways to create string key:
+### String Key:
 ```rb
 temp = { "second_message" => "this is a second message" }
 ```
@@ -47,9 +47,8 @@ temp = { "second_message" => "this is a second message" }
  => "this is a second message"
 ```
 
+
 ### Resources:
 - Great article: http://alwayscoding.ca/momentos/2012/06/15/ruby-hash-syntax-hashrocket-vs-json-style/
-
 - Symbol is faster than String: https://medium.com/@gorbikoff/ruby-hash-key-showdown-symbol-vs-string-c0655afbcfca
-
 - Hash: https://ruby-doc.org/core-2.7.2/Hash.html
