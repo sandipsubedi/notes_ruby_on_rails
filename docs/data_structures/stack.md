@@ -37,7 +37,7 @@ stack.pop  # pop => 2, stack = [1]
 ```
 
 ### pop
-- Removes an item from the top, and returns that item
+- Removes an item from the end, and returns that item
 ```rb
 [74] pry(main)> stack
 => [1, 2, 3]
@@ -47,6 +47,21 @@ stack.pop  # pop => 2, stack = [1]
 
 [76] pry(main)> stack
 => [1, 2]
+```
+
+### delete item from the front
+- Shift deletes the item from the front and returns that item.
+- Useful when Array is used as a Queue.
+
+```rb
+[127] pry(main)> nums
+=> [1, 2, 3]
+
+[128] pry(main)> nums.shift
+=> 1
+
+[129] pry(main)> nums
+=> [2, 3]
 ```
 
 ### last ( instead of peek )
