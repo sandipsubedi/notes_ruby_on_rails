@@ -68,3 +68,6 @@ end
 deliver = Deliver.new(message: "hello", mediums: ['sms', 'email'])
 deliver.call
 ```
+
+### Check
+- send

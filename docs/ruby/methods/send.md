@@ -54,3 +54,6 @@ Jiba
 
 ### Resources:
 - https://medium.com/ruby-daily/53-ruby-on-rails-interview-questions-and-answers-eb99eed1aeb7
+
+### Check:
+- respond_to

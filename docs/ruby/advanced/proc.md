@@ -35,9 +35,9 @@ times3.call(times5.call(4))   #=> 60
 
 ```rb
 def test_method
-    Proc.new do  |var_a, var_b|
-        p "varA #{var_a}: varB: #{var_b}"
-    end
+  Proc.new do  |var_a, var_b|
+    p "varA #{var_a}: varB: #{var_b}"
+  end
 end
 
 temp = test_method
@@ -53,9 +53,9 @@ $ruby main.rb
 
 ```rb
 def test_method
-    Proc.new do  |var_a, var_b|
-        p "varA #{var_a}: varB: #{var_b}"
-    end
+  Proc.new do  |var_a, var_b|
+    p "varA #{var_a}: varB: #{var_b}"
+  end
 end
 
 temp = test_method

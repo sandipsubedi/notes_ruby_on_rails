@@ -25,10 +25,18 @@ title: Hash Methods
 [109] pry(main)> temp
 => {:third_message=>"this is third message", :fourth_message=>"this is a fourth message"}
 
+# With has_key?
 [110] pry(main)> temp.has_key?(:second_message)
 => false
 
 [111] pry(main)> temp.has_key?(:third_message)
+=> true
+
+# With key?
+[6] pry(main)> temp.key?(:second_message)
+=> false
+
+[7] pry(main)> temp.key?(:third_message)
 => true
 ```
 

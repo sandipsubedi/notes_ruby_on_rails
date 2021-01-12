@@ -12,6 +12,20 @@ TODO
 ```rb
 [88] pry(main)> 3/2.to_f
 => 1.5
+
+# By default it returns int:
+[148] pry(main)> 3/2
+=> 1
+
+# Even when the variable was instantiated as float before:
+[149] pry(main)> temp = 0.0
+=> 0.0
+
+[150] pry(main)> temp = 3/2
+=> 1
+
+[151] pry(main)> temp
+=> 1
 ```
 
 ### Convert to float:
