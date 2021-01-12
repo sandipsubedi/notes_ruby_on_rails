@@ -74,7 +74,9 @@ module.exports = {
                        'ruby/cloning/dup',
                        'ruby/cloning/shallow_copy',
                        'ruby/cloning/trivial_vs_no_trivial']},
-            { Conditionals: ['ruby/conditionals/if_else_ruby',
+            { Conditionals: [
+                             'ruby/conditionals/conditional_assignments',
+                             'ruby/conditionals/if_else_ruby',
                              'ruby/conditionals/lazy_evaluation_conditionals',
                              'ruby/conditionals/switch',
                             ]},
@@ -99,6 +101,7 @@ module.exports = {
                                  'ruby/instance_vs_class/instance_method',
                                  'ruby/instance_vs_class/instance_variable'] },
            { InterestingKeyWords: [
+                                  'ruby/interesting_keywords/<<',
                                   'ruby/interesting_keywords/<=>',
                                   'ruby/interesting_keywords/||=',
                                   'ruby/interesting_keywords/=~',
