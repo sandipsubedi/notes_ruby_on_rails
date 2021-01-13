@@ -25,6 +25,7 @@ module.exports = {
     DesignPatterns: ['design_patterns/_index',
                      'design_patterns/adapter',
                      'design_patterns/anti_patterns',
+                     'design_patterns/common_in_rails',
                      'design_patterns/decorator_pattern',
                      'design_patterns/mvc',
                      'design_patterns/separation_of_concerns',
@@ -147,10 +148,13 @@ module.exports = {
            {Typing: ['ruby/typing/duck_typing',
                      'ruby/typing/dynamic_typing',
                      'ruby/typing/typed']},
-          { Visibility: ['ruby/visibility/private_from_super_class',
+          { Visibility: [
+                         'ruby/visibility/private_class_method',
+                         'ruby/visibility/private_from_super_class',
                          'ruby/visibility/protected_from_super_class',
                          'ruby/visibility/public_from_super_class',
-                         'ruby/visibility/visibility'] },
+                         'ruby/visibility/visibility'
+                        ] },
            "ruby/by_value_vs_by_ref",
            "ruby/comments",
            "ruby/documentation_in_command_line",
