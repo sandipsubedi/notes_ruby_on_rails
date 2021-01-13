@@ -34,7 +34,7 @@ end
 sum(salary: 100, tax: 30) # => 80
 ```
 
-### 3. Variable Aruments:
+### 3. Variable Arguments:
 ```rb
 
 def print_all(**args)
@@ -45,7 +45,7 @@ print_all(1, 2, 3) # =>
 The **x is the same as variable arguments, but for keyword arguments. It will be a hash instead of an array.
 
 
-4. Catch-all Argument:
+### 4. Catch-all Argument:
 
 ```rb
 def print_all(*)
@@ -56,9 +56,10 @@ This means that the method is accepting any arguments, but it’s not doing anyt
 
 ### Order
 
-```
+```rb
 required -> optional -> variable -> keyword
 ```
+
 ```rb
 def testing(a, b = 1, *c, d: 1, **x)
   p a,b,c,d,x
