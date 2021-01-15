@@ -5,8 +5,6 @@ title: Getter and Setter
 - A Ruby object has its methods public by default, but its data is private.
 - So if you need to access the data, for either reading or writing, you need to make it public somehow.
 
-Great article: https://mixandgo.com/learn/ruby_attr_accessor_attr_reader_attr_writer
-
 ```rb
 class Person
   def initialize(name:)
@@ -41,3 +39,6 @@ end
 john = Person.new(name: "John")
 puts john.name
 ```
+
+### Resources:
+- https://mixandgo.com/learn/ruby_attr_accessor_attr_reader_attr_writer

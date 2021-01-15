@@ -27,3 +27,6 @@ When the origional variable is manipulated, the method shout with a bang:
 [83] pry(main)> arr
 => [1, 2, 3, 4, 6, 7, 11]
 ```
+
+### Bang on activerecord methods
+- user.update vs user.update!
