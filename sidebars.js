@@ -130,6 +130,7 @@ module.exports = {
                      'ruby/loops/each',
                      'ruby/loops/loop',
                      'ruby/loops/step',
+                     'ruby/loops/times',
                      'ruby/loops/until',
                      'ruby/loops/while'
                     ] },
@@ -158,6 +159,7 @@ module.exports = {
                       'ruby/oops/self',
                       'ruby/oops/singleton_class',
                       'ruby/oops/singleton_method',
+                      'ruby/oops/super',
                     ] },
            { Ruby_vs_Java: ['ruby/ruby_vs_java/increment_operators'] },
            { Sorting: [

@@ -8,7 +8,6 @@ title: Enumerable Module
 ### Example of Enumerable Objects:
 - Arrays
 - Hashes
-- Range
 
 ### Some popular methods:
 - map

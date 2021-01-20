@@ -20,3 +20,7 @@ Retriable.retriable(on: [MyModule::MyClass::CustomError, Net::OpenTimeout],
     raise MyModule::MyClass::CustomError if @food != "tacos"
 end
 ```
+
+### Exponential Backoff:
+
+- 
