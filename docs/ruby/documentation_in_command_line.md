@@ -26,7 +26,7 @@ Enter a blank line to exit.
 ```
 
 ### Output when typed
-```
+```rb
 = .uniq
 
 (from ruby site)

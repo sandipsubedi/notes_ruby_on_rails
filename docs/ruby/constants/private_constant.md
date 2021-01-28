@@ -9,7 +9,7 @@ title: Private Constant
 
 ```rb
 class Animal
-    FOOD = ["grass", "meat"].freeze
+  FOOD = ["grass", "meat"].freeze
 end
 
 p Animal.constants
@@ -23,8 +23,8 @@ $ruby main.rb
 
 ```rb
 class Animal
-    FOOD = ["grass", "meat"].freeze
-    private_constant :FOOD
+  FOOD = ["grass", "meat"].freeze
+  private_constant :FOOD
 end
 
 p Animal.constants

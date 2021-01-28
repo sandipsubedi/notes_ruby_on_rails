@@ -18,8 +18,6 @@ title: Clone
 => [1, 2, 3]
 ```
 
-
-
 ### Clone also fails in 2D array:
 
 ```rb

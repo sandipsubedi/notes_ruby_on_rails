@@ -100,5 +100,4 @@ Dog.eat
 # Output:
 $ruby main.rb
 main.rb:14:in `<main>': undefined method `eat' for Dog:Class (NoMethodError)
-
 ```

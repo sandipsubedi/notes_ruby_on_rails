@@ -13,9 +13,9 @@ sum(100, 10, 30) # => 80
 ```
 
 ### 2. Keyword Param
-  - Introduced at Ruby 2.0.
-  - Keyword arguments allow us to switch the order of the arguments, without affecting the behavior of the method.
-  - Also known as named parameters, keyword arguments, required keyword arguments.
+- Introduced at Ruby 2.0.
+- Keyword arguments allow us to switch the order of the arguments, without affecting the behavior of the method.
+- Also known as named parameters, keyword arguments, required keyword arguments.
 
 ```rb
 def sum(salary:, bonus:, tax:)
@@ -97,8 +97,3 @@ end
 method_name 0,1,2
 ```
 But it's recommended for redeability.
-
-
-
-
-

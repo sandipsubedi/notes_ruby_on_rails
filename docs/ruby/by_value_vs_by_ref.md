@@ -22,7 +22,7 @@ puts "after: #{outside_hash}"
 ```
 
 ### Output
-```
+```rb
 $ruby main.rb
 before: {:test=>"came from the outside"} 
 after: {:test=>"was changed inside"} 

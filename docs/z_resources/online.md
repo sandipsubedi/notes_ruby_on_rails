@@ -14,7 +14,4 @@ https://www.benorenstein.com/blog/ruby-best-practices-a-review
 - Rails foundation: https://www.youtube.com/watch?v=jB6UXLsInUA&list=PLjQo0sojbbxVz2zbpq3DY2pePUfq7coSe
 - RubyThursday: https://www.youtube.com/c/RubyThursday/videos
 - ChicagoRuby: https://www.youtube.com/user/ChicagoRuby/videos
-- 
-
-
 

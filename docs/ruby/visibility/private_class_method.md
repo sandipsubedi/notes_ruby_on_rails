@@ -31,7 +31,7 @@ main.rb:11:in `<main>': private method `eat' called for #<Animal:0x005636bc9bf3b
 ```rb
 class Animal
 
-    private
+  private
     
   def self.eat
     p "I eat"
@@ -54,7 +54,7 @@ $ruby main.rb
 class Animal
 
   def self.eat
-      p "I eat"
+    p "I eat"
   end
 
   private_class_method :eat

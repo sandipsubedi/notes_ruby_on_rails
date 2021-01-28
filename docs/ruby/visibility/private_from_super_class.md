@@ -9,7 +9,7 @@ class Animal
   private
 
   def eat
-      p "I eat."
+    p "I eat."
   end
 end
 

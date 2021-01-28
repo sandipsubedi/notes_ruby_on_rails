@@ -8,7 +8,7 @@ title: Protected from super class
 ```rb
 class Animal
   def call
-      self.eat
+    self.eat
   end
   
   private
@@ -29,15 +29,15 @@ animal.call
 ```rb
 class Animal
 
-    def call
-        self.eat
-    end
-    
-    private
-    
-    def eat
-      p "I eat."
-    end
+  def call
+    self.eat
+  end
+  
+  private
+  
+  def eat
+    p "I eat."
+  end
 end
 
 animal = Animal.new
@@ -55,7 +55,7 @@ class Animal
   protected
 
   def eat
-      p "I eat."
+    p "I eat."
   end
 end
 
@@ -79,7 +79,7 @@ class Animal
   protected
 
   def eat
-      p "I eat."
+    p "I eat."
   end
 end
 

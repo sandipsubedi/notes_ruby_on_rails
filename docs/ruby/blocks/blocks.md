@@ -15,8 +15,6 @@ end
 - But block doesn't run by itself.
 - We need to attach it with something.
 
-
-
 ### Multi-line
 ```rb
 # n ==> Block parameter.

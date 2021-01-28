@@ -10,7 +10,7 @@ module User
 end
 
 class User::Admin
-    p Module.nesting
+  p Module.nesting
 end
 
 # Output:
@@ -22,7 +22,7 @@ $ruby main.rb
 
 ```rb
 class User::Admin
-    p Module.nesting
+  p Module.nesting
 end
 
 # Output:
@@ -35,9 +35,9 @@ main.rb:4:in `<main>': uninitialized constant User (NameError)
 
 ```rb
 module User
-    class Admin
-        p Module.nesting
-    end
+  class Admin
+    p Module.nesting
+  end
 end
 
 # Output:
