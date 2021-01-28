@@ -47,7 +47,6 @@ temp = { "second_message" => "this is a second message" }
  => "this is a second message"
 ```
 
-
 ### Resources:
 - Great article: http://alwayscoding.ca/momentos/2012/06/15/ruby-hash-syntax-hashrocket-vs-json-style/
 - Symbol is faster than String: https://medium.com/@gorbikoff/ruby-hash-key-showdown-symbol-vs-string-c0655afbcfca

@@ -59,7 +59,7 @@ title: Queue
 => true
 ```
 
-### Also see:
+### Check:
 Sized Queue
 
 ### Resources:

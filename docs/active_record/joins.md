@@ -4,7 +4,7 @@ title: Joins
 
 TODO
 
-- What does it do? it Joins
+- **Mnemonic: Join vs Joins** What does it do? it Joins
 
 ### Joins
 

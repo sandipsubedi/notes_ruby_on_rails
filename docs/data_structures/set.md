@@ -54,7 +54,7 @@ s.size # 2
  set.include?(1)
 ```
 
-### Also see:
+### Check:
 Sorted Set
 
 ### Resources:
