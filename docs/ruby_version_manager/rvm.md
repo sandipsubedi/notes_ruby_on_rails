@@ -24,3 +24,10 @@ rvm use --default 2.6.3
 ```rb
 rvm which ruby
 ```
+
+### Uninstall RVM:
+```
+rvm implode
+```
+
+I decided to move to RBENV.

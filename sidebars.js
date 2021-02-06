@@ -204,7 +204,10 @@ module.exports = {
                   'ruby_methods/substring',
                   'ruby_methods/sum_of_numbers',
                 ],
-    RubyVersionManager: ['ruby_version_manager/rvm'],
+    RubyVersionManager: [
+      'ruby_version_manager/rvm',
+      'ruby_version_manager/rbenv',
+    ],
     Testing: ['testing/testing_private_methods'],
     EventualConsistency: ['eventual_consistency'],
     InterviewPrep: ['interview_prep'],
