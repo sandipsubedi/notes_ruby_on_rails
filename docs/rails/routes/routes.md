@@ -12,5 +12,6 @@ rake routes
 ```
 
 - URL
+  - http://localhost:3000/rails/info/routes
 
 
