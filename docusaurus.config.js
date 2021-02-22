@@ -75,6 +75,9 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Sandip Subedi. Built with Docusaurus.`,
     },
+    prism: {
+      additionalLanguages: ['ruby'],
+    },
   },
   presets: [
     [
