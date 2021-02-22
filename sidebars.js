@@ -13,20 +13,25 @@ module.exports = {
                    'active_record/table_lock_during_migration',
                    'active_record/transaction'
                   ],
-    Bundler: ['bundler/exec'],
-    DataStructures: ['data_structures/arrays_method',
+    Bundler: [
+      'bundler/exec',
+    ],
+    DataStructures: [
+                     'data_structures/arrays_method',
                      'data_structures/arrays',
                      'data_structures/collection_classes',
+                     'data_structures/enumerable_module_custom_created',
                      'data_structures/enumerable_module',
                      'data_structures/enumerator_class',
                      'data_structures/hash_methods',
                       'data_structures/hash_syntax',
                       'data_structures/length_size_count',
                       'data_structures/queue',
-                      'data_structures/set', 
+                      'data_structures/set',
                       'data_structures/sized_queue',
                       'data_structures/sorted_set',
-                      'data_structures/stack'],
+                      'data_structures/stack'
+                     ],
     DesignPatterns: [
                      'design_patterns/_index',
                      'design_patterns/adapter',
@@ -39,7 +44,9 @@ module.exports = {
                      'design_patterns/single_responsibility_principle',
                      'design_patterns/singleton'
                     ],
-    Gems: ['gems/dependency_conflict',
+    Gems: [
+           'gems/dependency_conflict',
+           'gems/gemfile',
            'gems/rack',
            'gems/rake',
            'gems/reek',
@@ -59,6 +66,7 @@ module.exports = {
                        'rails/routes/routes',
                        'rails/routes/scope'
                       ]},
+            'rails/_install',
             'rails/before_action',
             'rails/callbacks',
             'rails/concerns',
@@ -74,7 +82,12 @@ module.exports = {
             'rails/security',
             'rails/session',
             'rails/terminal_commands',
-            'rails/to_webpacker'],
+            'rails/to_webpacker',
+          ],
+    Rspec:[
+      'rspec/rspec',
+      'rspec/testing',
+    ],
     Ruby: [{ Advanced: [
                         'ruby/advanced/activerecord_scopes',
                         'ruby/advanced/closures',
@@ -104,22 +117,26 @@ module.exports = {
                           'ruby/constants/freeze',
                           'ruby/constants/frozen_string_literal',
                           'ruby/constants/frozen',
-                          'ruby/constants/private_constant']},
+                          'ruby/constants/private_constant'
+                        ]},
             { DataTypes: ['ruby/data_types/convert',
                           'ruby/data_types/float',
                           'ruby/data_types/integer',
                           'ruby/data_types/string',
                           'ruby/data_types/symbol',
-                          'ruby/data_types/type_of_object']},
+                          'ruby/data_types/type_of_object'
+                        ]},
            { Getter_Setter: ['ruby/getter_setter/attr_accessor',
                              'ruby/getter_setter/attr_reader',
                              'ruby/getter_setter/attr_writer',
-                             'ruby/getter_setter/readme'] },
+                             'ruby/getter_setter/readme'
+                            ]},
            { Instance_vs_Class: ['ruby/instance_vs_class/class_method',
                                  'ruby/instance_vs_class/class_variable',
                                  'ruby/instance_vs_class/instance_method',
                                  'ruby/instance_vs_class/instance_variable'] },
            { InterestingKeyWords: [
+                                  'ruby/interesting_keywords/&=',
                                   'ruby/interesting_keywords/<<',
                                   'ruby/interesting_keywords/<=>',
                                   'ruby/interesting_keywords/||=',
@@ -161,7 +178,9 @@ module.exports = {
                       'ruby/oops/singleton_method',
                       'ruby/oops/super',
                     ] },
-           { Ruby_vs_Java: ['ruby/ruby_vs_java/increment_operators'] },
+           { Ruby_vs_Java: [
+             'ruby/ruby_vs_java/increment_operators'
+            ]},
            { Sorting: [
                        'ruby/sorting/custom_sort',
                        'ruby/sorting/sort_hash',
@@ -169,11 +188,13 @@ module.exports = {
                        'ruby/sorting/sort_vs_sort_by',
                        'ruby/sorting/sort',
                       ] },
-           { Threads: ['ruby/threads/thread',
-                       'ruby/threads/thread_pooling'] },
+           { Threads: [
+                       'ruby/threads/thread',
+                       'ruby/threads/thread_pooling'
+                      ]},
            {Typing: ['ruby/typing/duck_typing',
                      'ruby/typing/dynamic_typing',
-                     'ruby/typing/typed'
+                     'ruby/typing/typed',
                     ]},
           { Visibility: [
                          'ruby/visibility/private_class_method',
@@ -191,7 +212,9 @@ module.exports = {
            "ruby/rails_vs_ruby_methods",
            "ruby/respond_to",
           ],
-    Ruby_3: ['ruby_3/scalability'],
+    Ruby_3: [
+      'ruby_3/scalability',
+    ],
     RubyMethods: [
                   'ruby_methods/collect',
                   'ruby_methods/delete_if',
@@ -213,7 +236,9 @@ module.exports = {
     InterviewPrep: ['interview_prep'],
     Mistakes: ['mistakes_while_learning_rails'],
     Performance: ['performance'],
+    Pry: ['pry'],
     ReloadConsole: ['reload_console'],
+    UpgradingRuby: ['upgrading_ruby'],
     Resources: ['z_resources/blogs',
                 'z_resources/books',
                 'z_resources/conference',

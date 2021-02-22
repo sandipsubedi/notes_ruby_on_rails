@@ -9,3 +9,8 @@ TODO
 ```rb
 rails new my_api --api
 ```
+
+### Choosing DB
+```rb
+
+```
