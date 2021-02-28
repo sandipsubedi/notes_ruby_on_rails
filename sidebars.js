@@ -46,6 +46,7 @@ module.exports = {
                      'design_patterns/singleton'
                     ],
     Gems: [
+           'gems/aasm',
            'gems/dependency_conflict',
            'gems/gemfile',
            'gems/rack',
