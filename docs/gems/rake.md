@@ -31,6 +31,11 @@ rake import:csv_data
 ```rb
 rake -T
 
+# or
+rake --tasks
+```
+
+```rb
 # Ouput:
 rake about                              # List versions of all Rails frameworks and the environment
 rake action_mailbox:ingress:exim        # Relay an inbound email from Exim to Action Mailbox (URL and INGRESS_PASSWORD required)

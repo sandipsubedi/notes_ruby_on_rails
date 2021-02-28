@@ -4,6 +4,7 @@ module.exports = {
     ActiveRecord: ['active_record/callbacks',
                    'active_record/distinct',
                    'active_record/eager_loading',
+                   'active_record/group',
                    'active_record/includes_vs_joins',
                    'active_record/joins',
                    'active_record/lazy_loading',
@@ -52,6 +53,7 @@ module.exports = {
            'gems/reek',
            'gems/resque',
            'gems/retriable',
+           'gems/strong_migrations',
            'gems/zeitwerk'
           ],
     Rails: [ { ApiMode: [
@@ -59,6 +61,10 @@ module.exports = {
                          'rails/api_mode/build_json_api'
                         ]},
               { CRUD: ['rails/crud/crud_verbs_actions']},
+              { Generate: [
+                          'rails/generate/generate',
+                          'rails/generate/model'
+                          ]},
               { Routes: [
                        'rails/routes/breaking_routes',
                        'rails/routes/member_vs_collection',
