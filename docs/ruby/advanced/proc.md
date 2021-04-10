@@ -67,5 +67,7 @@ $ruby main.rb
 "varA 1: varB: "
 ```
 
+TODO: try to do something after Proc.new
+
 Resources:
 - https://ruby-doc.org/core-2.6/Proc.html
