@@ -11,7 +11,7 @@ class Animal
     self.eat
   end
   
-  private
+  protected
   
   def eat
     p "I eat."
@@ -23,6 +23,28 @@ animal.call
 
 # Output:
 "I eat."
+```
+
+### Protected method without using self errors out:
+```rb
+class Animal
+
+  def call
+    eat
+  end
+  
+  protected
+  
+  def eat
+    p "I eat."
+  end
+end
+
+animal = Animal.new
+animal.call
+
+# Output:
+main.rb:4:in `call': private method `eat' called for #<Animal:0x00000000cca8a8> (NoMethodError) from main.rb:15:in `<main>'
 ```
 
 ### Private method using self errors out:
@@ -72,7 +94,7 @@ tiger.eat
 # protected method 'eat' called for #<Tiger:0x005596dc122550> (NoMethodError)
 ```
 
-### Proteced from same class canno be calld.
+### Protected from same class cannot be called.
 
 ```rb
 class Animal
